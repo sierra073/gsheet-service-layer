@@ -31,18 +31,18 @@ GITHUB = os.environ.get("GITHUB")
 # have to ensure that your path variables don't end with "/"
 if GITHUB.endswith("/"):
     try:
-        sys.path.insert(0, GITHUB + 'Projects/sots-isl/scripts/2019')
+        sys.path.insert(0, GITHUB + 'scripts/2019')
     except OSError as ose:
         print "The file can't be found. Check that the .env file is in the location the script is searching. The script looks in the location returned by the Python command: 'find_dotenv().' If the location searched is correct, then check the .env file to ensure the PATH variable, GITHUB, is correctly defined."
 else:
     try:
-        os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019')
+        os.chdir(GITHUB + '/scripts/2019')
     except OSError as ose:
         print "The file can't be found. Check that the .env file is in the location the script is searching. The script looks in the location returned by the Python command: 'find_dotenv().' If the location searched is correct, then check the .env file to ensure the PATH variable, GITHUB, is correctly defined."
 
 # define database credentials -- used for all modules
 global HOST_DAR, HOST_DAR_HIST, USER_DAR, USER_DAR_HIST, PASSWORD_DAR, PASSWORD_DAR_HIST, DB_DAR, DB_DAR_HIST
-HOST_DAR_HIST = "ec2-18-205-200-121.compute-1.amazonaws.com"
+HOST_DAR_HIST = os.environ.get("HOST_DAR_HIST")
 USER_DAR_HIST = os.environ.get("USER_DAR_HIST")
 PASSWORD_DAR_HIST = os.environ.get("PASSWORD_DAR_HIST")
 DB_DAR_HIST = os.environ.get("DB_DAR_HIST")

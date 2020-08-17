@@ -2,7 +2,7 @@ import os
 import psycopg2
 import pandas as pd
 
-HOST = "ec2-18-205-200-121.compute-1.amazonaws.com"  # allows delete and trunacte
+HOST = os.environ.get("HOST_DAR")
 USER = os.environ.get("USER_DAR")
 PASSWORD = os.environ.get("PASSWORD_DAR")
 DB = os.environ.get("DB_DAR")

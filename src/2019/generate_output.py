@@ -9,7 +9,7 @@ from generate_history_value import insert_value_db
 from generate_history_other import upload_hist, insert_table_hist
 
 global HOST_DAR_HIST, USER_DAR_HIST, PASSWORD_DAR_HIST, DB_DAR_HIST
-HOST_DAR_HIST = "ec2-18-205-200-121.compute-1.amazonaws.com"
+HOST_DAR_HIST = os.environ.get("HOST_DAR_HIST")
 USER_DAR_HIST = os.environ.get("USER_DAR_HIST")
 PASSWORD_DAR_HIST = os.environ.get("PASSWORD_DAR_HIST")
 DB_DAR_HIST = os.environ.get("DB_DAR_HIST")
