@@ -1,7 +1,7 @@
 *cred*.json
 *.ipynb_checkpoints
+*.ipynb
 *.pyc
 *.Rhistory
 *.log
 *.png
-*.ipynb
