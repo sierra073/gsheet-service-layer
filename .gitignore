@@ -1,0 +1,6 @@
+*cred*.json
+*.ipynb_checkpoints
+*.pyc
+*.Rhistory
+*.log
+*.png

@@ -1,0 +1,4 @@
+,group,meeting_2014_goal_no_oversub,num_students_newly_meeting,num_students_connected_top_3,num_districts_connected_top_3,top_3,pct_districts_connected_top_3_switched,pct_students_connected_top_3_switched,pct_districts_connected_top_3_expiring_contracts,pct_students_connected_top_3_expiring_contracts,pct_districts_connected_top_3_expiring_contracts_cy,pct_students_connected_top_3_expiring_contracts_cy,num_students_connected_top_10
+0,same group,True,1561813,348576,20,"['Spectrum', 'AT&T', 'Zayo Group']",0.35000000000000000000,0.17688825392453869457,0.80000000000000000000,0.32566499127880290095,0E-20,,357661
+1,opposite group,True,,247546,12,"['Cox', 'Spectrum', 'Comcast']",,,,,,,
+2,same group,False,,91282,14,"['Cox', 'Comcast', 'Spectrum']",0.07142857142857142857,0.05295677132402883372,0.58333333333333333333,0.44591116462491853259,0E-20,,102137

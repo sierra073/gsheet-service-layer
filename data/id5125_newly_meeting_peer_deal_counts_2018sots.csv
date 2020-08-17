@@ -1,0 +1,7 @@
+,subgroup,num_districts
+0,1. newly meeting(<= 200kbps): got peer deal at no cost,-658
+1,2. newly meeting(<= 200kbps): no cost,-39
+2,3. newly meeting(<= 200kbps): paid more,-735
+3,4. newly meeting: got peer deal at no cost,-1625
+4,5. newly meeting: no cost,-77
+5,6. newly meeting: paid more,-2360

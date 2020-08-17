@@ -1,0 +1,52 @@
+state_code,procurement_pattern,meeting_category,growth_category,model_state,lagging_state
+AK,District-procured,Lagging,Lagging,False,True
+AL,State Procured,Lagging,Lagging,False,True
+AR,State Procured,Majority Meeting,High Growth,True,False
+AZ,District-procured,Normal,Normal,False,False
+CA,Regional procurement,Normal,Normal,False,False
+CO,District-procured,Normal,Normal,False,False
+CT,District-procured,Normal,Normal,False,False
+DC,,Majority Meeting,High Growth,True,False
+DE,State Procured,Normal,Normal,False,False
+FL,District-procured,Lagging,Lagging,False,True
+GA,State Procured,Lagging,Lagging,False,True
+HI,State Procured,Majority Meeting,Lagging,True,False
+IA,State Procured,Normal,Normal,False,False
+ID,District-procured,Normal,Normal,False,False
+IL,District-procured,Normal,Lagging,False,False
+IN,District-procured,Lagging,Lagging,False,True
+KS,District-procured,Majority Meeting,Normal,True,False
+KY,State Procured,Lagging,Lagging,False,True
+LA,District-procured,Normal,Normal,False,False
+MA,District-procured,Lagging,Lagging,False,True
+MD,District-procured,Lagging,Lagging,False,True
+ME,State Procured,Majority Meeting,Lagging,True,False
+MI,Regional procurement,Normal,Normal,False,False
+MN,Regional procurement,Majority Meeting,Normal,True,False
+MO,State Procured,Normal,Lagging,False,False
+MS,State Procured,Lagging,Normal,False,False
+MT,District-procured,Majority Meeting,Normal,True,False
+NC,State Procured,Lagging,Lagging,False,True
+ND,State Procured,Majority Meeting,High Growth,True,False
+NE,State Procured,Normal,Lagging,False,False
+NH,District-procured,Normal,Lagging,False,False
+NJ,District-procured,Normal,Lagging,False,False
+NM,District-procured,Normal,Normal,False,False
+NV,District-procured,Majority Meeting,High Growth,True,False
+NY,Regional procurement,Normal,Lagging,False,False
+OH,Regional procurement,Lagging,Lagging,False,True
+OK,District-procured,Majority Meeting,Normal,True,False
+OR,Regional procurement,Majority Meeting,Normal,True,False
+PA,Regional procurement,Normal,Normal,False,False
+RI,State Procured,Lagging,Lagging,False,True
+SC,State Procured,Normal,Normal,False,False
+SD,State Procured,Majority Meeting,High Growth,True,False
+TN,District-procured,Normal,Lagging,False,False
+TX,Regional procurement,Normal,High Growth,True,False
+UT,State Procured,Normal,Normal,False,False
+VA,District-procured,Normal,Normal,False,False
+VT,District-procured,Normal,Normal,False,False
+WA,State Procured,Normal,Lagging,False,False
+WI,State Procured,Majority Meeting,High Growth,True,False
+WV,State Procured,Normal,Lagging,False,False
+WY,State Procured,Majority Meeting,High Growth,True,False

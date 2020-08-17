@@ -1,0 +1,3 @@
+,district_id,state_code,name,fiber_target_status_18,fiber_target_status_17,assumed_unscalable_campuses_18,known_unscalable_campuses_18,assumed_unscalable_campuses_17,known_unscalable_campuses_17,num_campuses,num_campuses_17
+0,894370,IA,Montezuma Community School District,Not Target,Not Target,0,1,0,0,1,1
+1,901984,IN,Dekalb County Central United School District,Potential Target,Potential Target,0.01780028943560057886,1,0.24,0,5,5

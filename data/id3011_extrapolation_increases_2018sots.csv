@@ -1,0 +1,15 @@
+,district_id,state_code,name,fiber_target_status_18,fiber_target_status_17,assumed_unscalable_campuses_18,known_unscalable_campuses_18,assumed_unscalable_campuses_17,known_unscalable_campuses_17,num_campuses,num_campuses_17
+0,882717,CA,Armona Union Elem School District,Target,Target,0.08,2,0,2,3,3
+1,901490,IL,North Boone School District 200,Target,Target,1.36,0,0.32,0,4,4
+2,919515,MI,Bedford Public School District,Potential Target,Potential Target,0.32,0,0.24,0,4,4
+3,919549,MI,Britton Deerfield Schools,Potential Target,Potential Target,0.16,0,0.08,0,2,2
+4,919598,MI,Clinton Community School District,Potential Target,Potential Target,0.24,0,0.16,0,3,3
+5,919635,MI,Dundee Community Schools,Potential Target,Potential Target,0.24,0,0.16,0,3,3
+6,919742,MI,Hudson Area Schools,Potential Target,Potential Target,0.16,0,0.08,0,2,2
+7,919907,MI,Paw Paw Public Schools,Potential Target,Potential Target,0.32,0,0.24,0,4,4
+8,919988,MI,Standish-Sterling Community Schools,Target,Target,1.36,0,0.32,0,4,4
+9,922587,MN,Eden Valley-Watkins Isd #463,Target,Target,0.08,1,0,1,3,3
+10,924414,MO,Neelyville School District R 4,Target,Target,0.08,1,0,1,2,2
+11,952240,OR,Jefferson Co School District 509 J,Target,Target,0.40,0,0.32,0,5,5
+12,952282,OR,Nyssa School District 26,Target,Target,1.02,0,0,0,3,3
+13,968983,TX,Alvord Independent School District,Potential Target,Potential Target,0.16,0,0.08,0,2,2

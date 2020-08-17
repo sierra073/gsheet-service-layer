@@ -1,0 +1,1001 @@
+,district_id,name,state_code,num_students,fit_for_ia,meeting_2018_goal_oversub,ia_bandwidth_per_student_kbps
+0,946654,New York City Public Schools,NY,945399,True,False,126.9305340919548254
+1,883628,Los Angeles Unified School District,CA,523849,True,True,401.0697739234015909
+2,943383,Clark County School District,NV,327174,True,False,122.2591037185106396
+3,901027,Chicago Public Schools,IL,317392,True,False,126.0271210364470434
+4,888987,Miami-Dade County Public Schools,FL,285087,True,False,149.9752707068368603
+5,888980,Broward County School District,FL,232696,True,True,442.6376044280950253
+6,969491,Houston Independent School District,TX,201207,True,True,198.8002405482910634
+7,889004,Hillsborough Co School District,FL,197875,True,False,202.1478205938092230
+8,889027,Orange County School District,FL,196532,True,True,513.9112205645899904
+9,975536,Fairfax County Public Schools,VA,185711,True,False,215.7922794018663407
+10,889029,Palm Beach County School District,FL,181878,True,False,249.1010457559462937
+11,889931,Gwinnett County Public Schools,GA,177212,True,False,185.6533417601516827
+12,893740,"Department of Education, State of Hawaii",HI,171502,True,True,568.5064897202364987
+13,929615,"Wake County, North Carolina Public School System",NC,168744,True,True,177.7840989901863177
+14,915459,Montgomery County School District,MD,158951,True,False,125.8249397613100893
+15,969247,Dallas Independent School District,TX,156328,True,False,127.9361342817665421
+16,929576,Charlotte-Mecklenburg Schools,NC,147538,True,False,271.1165936911168648
+17,954018,School District of Philadelphia,PA,130323,True,False,153.4648527121076096
+18,915460,Prince George's County Schools,MD,126671,True,True,236.8340030472641725
+19,883880,San Diego City Unified School District,CA,120523,True,True,688.6652340217219950
+20,969242,Cypress-Fairbanks Independent School District,TX,116338,True,False,206.2954494662105245
+21,915446,Baltimore County School District,MD,111975,True,True,446.5282429113641438
+22,889890,Cobb County School District,GA,111293,True,False,99.7367309713998185
+23,888991,Duval County School District,FL,110650,True,False,281.0664256665160416
+24,969801,Northside Independent School District,TX,107159,True,True,279.9578196885002660
+25,1075206,Shelby County Schools,TN,100552,True,True,208.8471636566154825
+26,904483,Jefferson County Public Schools,KY,98430,True,False,102.6109925835619222
+27,889904,DeKalb County School District,GA,97916,True,True,340.0874218718084889
+28,889031,Pinellas County Schools,FL,95666,True,False,125.4364141910396588
+29,942810,Albuquerque School District,NM,92497,True,True,508.1245878244699828
+30,889922,Fulton County School District,GA,91956,True,False,188.1334551307146896
+31,975625,Prince William County Public Schools,VA,89177,True,False,224.2730748959933615
+32,969357,Fort Worth Independent School District,TX,87114,True,True,573.9605574304933765
+33,889032,Polk County School Board,FL,85567,True,False,233.7349679198756530
+34,969011,Austin Independent School District,TX,82186,True,False,243.3504489815783710
+35,915445,Baltimore City School District,MD,81664,True,False,137.1473354231974922
+36,915444,Anne Arundel County Public Schools,MD,81166,True,False,149.0771998127294680
+37,975583,Loudoun County School District,VA,79438,True,False,251.7686749414637831
+38,967173,Metropolitan Nashville Public Schools,TN,79306,True,False,161.4001462688825562
+39,889011,Lee County School District,FL,79214,True,False,354.1040725124346706
+40,882257,Jefferson County School District R-1,CO,77275,True,False,129.4079585894532514
+41,883624,Long Beach Unified School District,CA,76007,True,False,132.5535805912613312
+42,969356,Fort Bend Independent School District,TX,75428,True,False,159.0921143341995015
+43,972094,Alpine School District,UT,75306,True,False,132.7915438344886198
+44,962267,Greenville County School District,SC,74119,True,False,134.9181721286040017
+45,882007,Denver Public Schools,CO,73122,True,False,287.1912693854106835
+46,929553,Guilford County School District,NC,72866,True,False,102.9286635742321522
+47,969546,Katy Independent School District,TX,72112,True,False,138.6731750610161970
+48,972200,Davis School District,UT,71483,True,False,139.8934012282640628
+49,883362,Fresno Unified School District,CA,69954,True,False,285.9021642793835949
+50,968974,Aldine Independent School District,TX,69535,True,False,287.6249370820450133
+51,972208,Granite School District,UT,69210,True,False,288.9755815633578963
+52,975656,Virginia Beach City Public Schools,VA,69085,True,False,289.4984439458637910
+53,984043,Milwaukee Public Schools,WI,68666,True,True,305.8282119243876154
+54,889030,Pasco County School District,FL,68462,True,False,219.0996465192369490
+55,888979,Brevard County School District,FL,67626,True,False,295.7442403809185816
+56,943404,Washoe County School District,NV,67621,True,False,147.8830540808328774
+57,969792,North East Independent School District,TX,67262,True,True,446.0170675864529749
+58,889036,Seminole County School District,FL,65745,True,False,304.2056430146779223
+59,969208,Conroe Independent School District,TX,63361,True,False,94.6954751345464876
+60,883220,Mesa Unified School District 4,AZ,62499,True,True,480.0076801228819661
+61,883271,Elk Grove Unified School District,CA,62027,True,False,322.4402276428007158
+62,882022,Douglas Co School District R E 1,CO,60476,True,False,132.2838812090746743
+63,889044,School District Of Volusia County,FL,60365,True,False,173.1135591816449930
+64,975518,Chesterfield County Public Schools,VA,59820,True,False,142.0929455031761953
+65,967140,Knox County School District,TN,59392,True,False,353.5829741379310345
+66,969005,Arlington Independent School District,TX,59391,True,True,505.1270394504217811
+67,969367,Frisco Independent School District,TX,59191,True,False,168.9446030646550996
+68,969315,El Paso Independent School District,TX,59135,True,False,169.1045911896507990
+69,889028,Osceola County School District,FL,57712,True,False,138.6193512614360965
+70,969380,Garland Independent School District,TX,55989,True,True,714.4260479737091214
+71,882103,Mobile County School District,AL,55798,True,False,90.5050360227965160
+72,969840,Pasadena Independent School District,TX,55715,True,False,358.9697567979897694
+73,911035,Boston School District,MA,55632,True,True,179.7526603393730227
+74,915457,Howard Co. Public School System,MD,55626,True,False,359.5440980836299572
+75,929546,Winston Salem/Forsyth County Schools,NC,55197,True,False,181.1692664456401616
+76,889888,Clayton County Public Schools,GA,54345,True,False,204.2506210322936793
+77,983222,Seattle School District 1,WA,54073,True,False,184.9351802193331237
+78,881909,Cherry Creek School District 5,CO,53435,True,False,149.7146065312997099
+79,883882,San Francisco Unified School District,CA,53238,True,True,187.8357564145910816
+80,883165,Corona-Norco Unified School District,CA,53108,True,False,188.2955486932288921
+81,969866,Plano Independent School District,TX,52768,True,False,379.0175864160097029
+82,969623,Lewisville Isd,TX,52548,True,False,190.3021998934307681
+83,972210,Jordan School District,UT,52468,True,False,381.1847221163375772
+84,936141,Omaha Public School District,NE,51738,True,False,115.9689203293517337
+85,975565,Henrico County School District,VA,51425,True,False,155.5663587749149246
+86,969569,Klein Isd,TX,51225,True,False,234.2606149341142020
+87,929340,Cumberland County Schools,NC,51114,True,False,195.6411159369253042
+88,919631,Detroit Public School District,MI,51049,True,True,197.8491253501537738
+89,969974,San Antonio Independent School District,TX,50233,True,False,199.0723229749367945
+90,949593,Columbus City Schools,OH,49935,True,False,100.1301692199859818
+91,883904,Santa Ana Unified School District,CA,49769,True,False,200.9282886937651952
+92,903686,Wichita Unified School District 259,KS,49323,True,True,405.4903391926687347
+93,883877,San Bernardino City Unified School District,CA,48854,True,False,204.6915298644942072
+94,883052,Capistrano Unified School District,CA,48716,True,False,390.0156006240249610
+95,969955,Round Rock Independent School District,TX,48171,True,False,373.6688048826057171
+96,970041,Socorro Independent School District,TX,47478,True,False,210.6238678967100552
+97,884755,District Of Columbia Pub Schs,DC,47204,True,True,233.0310990594017456
+98,883390,Tucson Unified School District,AZ,47102,True,False,212.3052099698526602
+99,882642,Anchorage School District,AK,46874,True,False,128.0027307249221317
+100,969101,Brownsville Independent School District,TX,46854,True,False,213.4289495027105477
+101,889920,Forsyth County School District,GA,46238,True,False,594.7489078247329037
+102,909731,Jefferson Parish School District,LA,46171,True,True,437.5040609906651361
+103,968977,Alief Independent School District,TX,46135,True,False,175.5716917741411076
+104,889837,Atlanta Public Schools,GA,44825,True,True,455.1031790295593977
+105,969564,Killeen Independent School District,TX,44644,True,True,537.5862377923125168
+106,952304,Portland Public Schools,OR,44477,True,True,449.6706162735796029
+107,962237,Charleston County School District,SC,44346,True,False,180.3995850809543138
+108,883374,Garden Grove Unified School District,CA,44195,True,True,905.0797601538635592
+109,967191,Rutherford County School District,TN,44149,True,False,226.5056966182699495
+110,883088,Chandler Unified School District 80,AZ,44080,True,False,249.5462794918330309
+111,888985,District School Board Of Collier County,FL,43729,True,True,5191.0631388780900547
+112,970137,United Isd,TX,43646,True,False,229.1160702011639096
+113,889017,Manatee County School District,FL,43410,True,False,276.4340013821700069
+114,967110,Hamilton County School District,TN,43406,True,False,230.3828963737732111
+115,962274,Horry County School District,SC,43247,True,False,208.1069207112632090
+116,883869,Sacramento City Unified School District,CA,43097,True,False,255.2381836322713878
+117,883126,Clovis Unified School District,CA,42490,True,False,235.3494939985879030
+118,969180,Clear Creek Independent School District,TX,42117,True,False,237.4338153239784410
+119,970234,Ysleta Independent School District,TX,42015,True,False,190.4081875520647388
+120,889939,Henry County School District,GA,41930,True,False,476.9854519437157167
+121,889884,Cherokee County School District,GA,41916,True,False,255.2724496612272163
+122,883854,Riverside Unified School District,CA,41915,True,False,238.5780746749373733
+123,929612,Union County Public Schools,NC,41782,True,False,119.6687568809535207
+124,952315,Salem-Keizer School District 24 J,OR,41570,True,False,144.3348568679336060
+125,904452,Fayette County School District,KY,41223,True,False,242.5830240399776824
+126,969504,Humble Independent School District,TX,41205,True,False,145.6133964324717874
+127,969215,Corpus Christi Independent School District,TX,40928,True,True,488.6630179827990618
+128,889018,Marion County School District,FL,40844,True,False,244.8340025462736265
+129,883745,Oakland Unified School District,CA,40765,True,False,343.4318655709554765
+130,883985,Sweetwater Un High School District,CA,40570,True,False,494.2075425191027853
+131,889010,Lake County School District,FL,40564,True,False,197.2192091509713046
+132,952158,Beaverton School District 48 J,OR,40420,True,True,494.8045522018802573
+133,915454,Frederick County Public School District,MD,40397,True,False,148.5258806347005966
+134,975517,Chesapeake City Public Schools,VA,40192,True,False,248.8057324840764331
+135,969717,Mesquite Independent School District,TX,40074,True,False,274.4921894495183910
+136,922513,Anoka-Hennepin School District 11,MN,39906,True,False,501.1777677542224227
+137,951574,Oklahoma City School District I-89,OK,39806,True,False,251.2184092850324072
+138,883886,San Juan Unified School District,CA,39802,True,False,376.8654841465253002
+139,936099,Lincoln Public School District,NE,39499,True,False,151.9025798121471430
+140,951738,Tulsa Independent School District 1,OK,39407,True,False,253.7620219757911031
+141,969925,Richardson Independent School District,TX,39188,True,False,255.1801571909768296
+142,969612,Leander Independent School District,TX,38970,True,False,256.6076469078778548
+143,901121,School District Unit 46,IL,38920,True,False,128.4686536485097636
+144,888992,Escambia County School District,FL,38688,True,False,180.9346567411083540
+145,949591,Cleveland Metropolitan School District,OH,38288,True,False,78.3535311324697033
+146,909760,St Tammany Parish School District,LA,38270,True,False,391.9519205644107656
+147,967224,Williamson County School District,TN,38171,True,False,261.9789892850593382
+148,909712,Caddo Parish School District,LA,38137,True,True,419.5400791881899468
+149,889037,St Johns County School District,FL,38104,True,False,367.4154944362796557
+150,889881,Savannah-Chatham County Public Schools,GA,38047,True,False,162.9563434699187847
+151,881807,Aurora Public Schools,CO,37704,True,False,164.4387863356673032
+152,909720,East Baton Rouge Parish Dist,LA,37524,True,False,266.4961091568063106
+153,895462,West Ada School District,ID,37497,True,True,533.3760034136064218
+154,915456,Harford County School District,MD,37357,True,False,267.6874481355569237
+155,882641,Adams 12 Five Star School District,CO,37323,True,False,112.5311470139056346
+156,883972,Stockton Unified School District,CA,37305,True,False,268.0605816914622705
+157,883551,Kern Union High School District,CA,37268,True,False,268.3267146077063432
+158,883330,Fontana Unified School District,CA,36981,True,False,135.2045645060977259
+159,889038,St Lucie County School District,FL,36841,True,False,271.4367145300073288
+160,970054,Spring Independent School District,TX,36697,True,False,218.0014715099326920
+161,888984,School Board Of Clay County,FL,36571,True,False,300.7847748215799404
+162,883274,Peoria Unified School District #11,AZ,36406,True,False,274.6799978025600176
+163,889035,Sarasota County School District,FL,36316,True,False,137.6803612732679811
+164,882026,Jefferson County School District,AL,36171,True,False,221.1716568521743939
+165,922784,Saint Paul Public School District 625,MN,36129,True,True,1107.1438456641479144
+166,883823,Poway Unified School District,CA,35651,True,False,280.4970407562200219
+167,941461,Newark School District,NJ,35075,True,True,570.2066999287241625
+168,929565,Johnston County School District,NC,35002,True,False,285.6979601165647677
+169,883354,Fremont Unified School District,CA,34940,True,False,286.2049227246708643
+170,883345,Deer Valley Unified School District 97,AZ,34742,True,False,287.8360485867250014
+171,969549,Keller Isd,TX,34651,True,False,288.5919598279991919
+172,962235,Berkeley County School District,SC,34628,True,False,259.9052789649994224
+173,922687,Minneapolis School District 1,MN,34597,True,True,404.6593635286296500
+174,883151,Gilbert Unified School District 41,AZ,34319,True,False,145.6918907893586643
+175,969673,Mansfield Independent School District,TX,34125,True,False,293.0402930402930403
+176,970051,Spring Branch Isd,TX,34022,True,False,176.3564752219152313
+177,969312,Edinburg Independent School District,TX,34004,True,False,147.0415245265262910
+178,972167,Canyons School District,UT,33689,False,,
+179,929543,Durham Public School District,NC,33643,True,False,222.9289896858187439
+180,967167,Clarksville-Montgomery Dist,TN,33541,True,False,59.6285143555648311
+181,968984,Amarillo Independent School District,TX,33537,True,False,178.9068789694963771
+182,926592,Desoto County School District,MS,33537,True,False,59.6356263231654590
+183,949588,Cincinnati City School District,OH,33528,True,True,1193.0326890956812217
+184,884078,Irvine Unified School District,CA,33352,True,False,299.8320940273446870
+185,883698,Moreno Valley Unified School District,CA,33198,True,False,602.4459304777396229
+186,972218,Nebo School District,UT,33153,True,True,904.8954845715319881
+187,946258,Buffalo City School District,NY,33000,True,False,242.4242424242424242
+188,969522,Irving Independent School District,TX,32585,True,False,613.7793463249961639
+189,889012,Leon County School District,FL,32448,True,False,123.2741617357001972
+190,909713,Calcasieu Parish School District,LA,32397,True,False,308.6705559156712041
+191,883901,San Ramon Valley Unified School District,CA,32298,True,False,309.6166945321691746
+192,894251,Des Moines Public Schools,IA,32057,True,False,187.1666094768693265
+193,929548,Gaston County School District,NC,32030,True,False,234.1554792382141742
+194,889975,Muscogee County School District,GA,31590,True,False,170.9401709401709402
+195,883260,Paradise Valley Unified District 69,AZ,31572,True,False,665.1463321930824781
+196,969857,Pharr-San Juan-Alamo ISD,TX,31398,True,False,318.4916236702974712
+197,929523,Cabarrus County Schools,NC,31249,True,False,240.0076802457678646
+198,881684,Baldwin County Board of Education,AL,31214,True,False,192.2214390978407125
+199,883711,Mount Diablo Unified School District,CA,31105,True,False,160.7458607940845523
+200,883885,San Jose Unified School District,CA,30997,True,False,682.3240958802464755
+201,881831,Boulder Valley School District R E 2,CO,30971,True,False,162.4099964482903361
+202,975604,Norfolk Public School District,VA,30886,True,False,323.7712879621835136
+203,889993,Richmond County School District,GA,30866,True,False,249.4654312188168211
+204,972244,Weber County School District,UT,30697,True,False,325.7647327100368114
+205,969600,Lamar Consolidated Independent School District,TX,30425,True,False,164.3385373870172555
+206,983245,Spokane School District 81,WA,30377,True,False,329.1964315106824242
+207,883108,Chula Vista Elem School District,CA,30369,True,False,395.1397806974217129
+208,903608,Olathe Unified School District 233,KS,30340,True,False,395.5174686882003955
+209,882753,Bakersfield City Elem School District,CA,30316,True,False,329.8588204248581607
+210,969306,Ector County Independent School District,TX,30233,True,False,165.3821982601792743
+211,882635,Anaheim Union High School District,CA,30222,True,False,330.8847859175435113
+212,882115,Montgomery County School District,AL,30051,True,False,166.3838141825563209
+213,881577,Temecula Valley Unified School District,CA,29890,True,False,334.5600535296085647
+214,909733,Lafayette Parish School District,LA,29602,True,False,337.8150124991554625
+215,967202,Sumner County School District,TN,29479,True,False,271.3796261745649445
+216,902036,Fort Wayne Community School District,IN,29352,True,True,715.4538021259198692
+217,972242,Washington County School District,UT,29192,False,,
+218,889979,Paulding County School District,GA,29018,True,False,113.7225170583775588
+219,969585,La Joya Independent School District,TX,29003,True,False,344.7919180774402648
+220,889940,Houston County School District,GA,29003,True,False,472.3649277660931628
+221,889023,Okaloosa County School District,FL,28907,True,False,207.5621821704085516
+222,883213,Desert Sands Unified School District,CA,28731,True,False,348.0561066443910758
+223,884027,Visalia Unified School District,CA,28557,True,True,1400.7073572153937739
+224,883846,West Contra Costa Un School District,CA,28529,True,False,385.5725752742823092
+225,882374,St Vrain Valley School District Re 1J,CO,28513,True,False,175.3586083540841020
+226,969413,Grand Prairie Independent School District,TX,28483,True,True,702.1732261348874767
+227,883618,Lodi Unified School District,CA,28431,True,False,597.9388695438078154
+228,975647,Stafford County Public Schools,VA,28386,True,False,584.7953216374269006
+229,969657,Lubbock ISD,TX,28335,True,False,529.3806246691371096
+230,983099,Lake Washington School District 414,WA,28264,True,False,106.1420888763090858
+231,883754,Orange Unified School District,CA,28119,True,True,711.2628471851772823
+232,941325,Jersey City School District,NJ,28002,True,True,714.2346975216055996
+233,969263,Denton Independent School District,TX,27917,True,False,429.8456137837160153
+234,883870,Saddleback Valley Unified Dist,CA,27777,True,False,360.0100802822479029
+235,902066,Indianapolis Public Schools,IN,27713,True,False,360.8414823368094396
+236,962303,Richland County School District 2,SC,27690,True,False,216.6847237269772481
+237,920016,Utica Community School District,MI,27607,True,False,362.2269714202919549
+238,975603,Newport News City Public Schools,VA,27550,True,False,362.9764065335753176
+239,922753,Rosemount Ind. School District 196,MN,27498,True,False,363.6628118408611535
+240,883100,Chino Valley Unified School District,CA,27459,True,False,364.1793218981026257
+241,983262,Tacoma School District 10,WA,27434,True,True,729.0223809870963039
+242,903652,Shawnee Mission School District 512,KS,27324,True,True,731.9572536963841312
+243,889933,Hall County School System,GA,27229,True,False,414.9987146057512211
+244,901821,Indian Prairie C U District 204,IL,27211,True,False,220.4990628789827643
+245,882118,Poudre School District R 1,CO,27187,False,,
+246,883691,Montebello Unified School District,CA,27038,True,False,369.8498409645683852
+247,883278,Phoenix Un High School District 210,AZ,26977,True,False,741.3722800904474182
+248,888974,Alachua County Public Schools,FL,26971,True,False,55.6152904972006970
+249,926628,Jackson Public School District,MS,26948,True,False,371.0850526940774826
+250,889893,Columbia County Board Of Education,GA,26914,True,False,111.4661514453444304
+251,889034,Santa Rosa Co School District,FL,26804,True,False,186.5393224891807193
+252,901560,Plainfield Community Consolidated District 202,IL,26684,True,False,378.5039724179283466
+253,983088,Kent School District,WA,26646,True,True,750.5817008181340539
+254,946961,Yonkers Public School District,NY,26567,True,True,752.8136409831746151
+255,983807,Kanawha County School District,WV,26423,True,False,189.2290807251258373
+256,929584,New Hanover County Board Of Ed,NC,26415,True,False,113.5718341851220897
+257,915451,Charles County School District,MD,26390,True,False,303.1451307313376279
+258,929587,Onslow County School District,NC,26352,True,False,151.7911353976927747
+259,946773,Rochester City School District,NY,26204,True,False,152.6484506182262250
+260,975498,Arlington Public School District,VA,26176,True,False,382.0293398533007335
+261,962255,Dorchester County School District 2,SC,26066,True,False,153.4566101434819305
+262,881930,Colorado Springs School District 11,CO,26053,True,False,191.9164779487966837
+263,883393,Glendale Unified School District,CA,26014,True,False,422.8492350272929961
+264,984004,Madison Metro School District,WI,25942,True,True,770.9505820676894611
+265,895401,Boise City Independent District 1,ID,25865,True,False,193.3114247052000773
+266,983049,Evergreen School District,WA,25659,True,True,779.4536030242799797
+267,882182,Twin Rivers Unf School District,CA,25629,True,False,390.1829958250419447
+268,962281,Lexington County School District 1,SC,25621,True,False,156.1219312282892939
+269,883800,Placentia-Yorba Linda Unified School District,CA,25597,True,False,390.6707817322342462
+270,889908,Douglas County School System,GA,25560,True,False,176.0563380281690141
+271,911297,Springfield Public Schools MA,MA,25489,True,False,392.3261014555298364
+272,883842,Rialto Unified School District,CA,25451,True,False,392.9118698675886999
+273,969856,Pflugerville Independent School District,TX,25290,True,False,197.7066034005535785
+274,941203,Elizabeth School District,NJ,25278,True,False,474.7211013529551389
+275,924560,Springfield School District R 12,MO,25256,True,False,395.9455178967374089
+276,915449,Carroll County School District,MD,25176,True,False,397.2036860502065459
+277,909737,Livingston Parish Public Schools,LA,25150,True,False,397.6143141153081511
+278,969139,Carrollton-Farmers BR School District,TX,25133,True,True,795.7665221024151514
+279,911361,Worcester Public School District,MA,24919,True,False,401.3002126891127252
+280,901628,Rockford School District 205,IL,24877,True,False,401.9777304337339711
+281,962218,Aiken County Schools,SC,24838,True,False,161.0435622835977132
+282,883120,Dysart Unified School District 89,AZ,24687,True,False,324.0571960951107871
+283,969721,Midland Independent School District,TX,24667,True,False,324.3199416224105080
+284,965986,Sioux Falls School District 49-5,SD,24562,True,False,411.2042993241592704
+285,883243,East Side Union High School District,CA,24530,True,True,4097.0240521810028536
+286,942918,Las Cruces Public Schools,NM,24515,True,False,407.9135223332653477
+287,951277,Edmond Independent School District 12,OK,24403,True,False,204.8928410441339180
+288,929521,Buncombe Co School District,NC,24369,True,False,164.1429685255857852
+289,951511,Moore Public Schools,OK,24355,True,False,82.1186614658181072
+290,969606,Laredo Independent School District,TX,24209,True,True,1239.2085588004461151
+291,969197,Comal Independent School District,TX,24140,True,False,414.2502071251035626
+292,969700,Mckinney Independent School District,TX,24134,True,False,414.3531946631308527
+293,882000,Huntsville City School District,AL,24026,True,False,83.2431532506451344
+294,883818,Pomona Unified School District,CA,24018,True,False,416.3544008660171538
+295,936121,Millard Public Schools,NE,23980,True,False,125.1042535446205171
+296,968982,Alvin Independent School District,TX,23971,True,False,417.1707479871511410
+297,884008,Tustin Unified School District,CA,23921,True,True,836.0854479327787300
+298,941514,Paterson Public Schools,NJ,23905,True,False,250.9935160008366451
+299,969052,Birdville Independent School District,TX,23854,True,False,419.2169028255219250
+300,882469,Little Rock School District,AR,23852,True,True,1257.7561630051987255
+301,969694,Mcallen Independent School District,TX,23824,True,True,839.4895903290799194
+302,929599,Robeson County Public Schools,NC,23757,True,False,315.6964263164540977
+303,969406,Goose Creek Consolidated Independent School District,TX,23726,True,False,126.4435640225912501
+304,929341,Pitt County School District,NC,23658,True,False,211.3449995773100008
+305,962302,Richland County School District 1,SC,23623,True,False,296.3213817042712611
+306,975646,Spotsylvania Co School District,VA,23597,True,False,169.5130736958087893
+307,972228,Salt Lake City School District,UT,23576,True,True,848.3203257550050899
+308,909746,Rapides Parish School District,LA,23517,True,False,425.2243058213207467
+309,883998,Torrance Unified School District,CA,23468,True,False,426.1121527185955343
+310,924568,St Louis City School District,MO,23457,True,False,85.2623950206761308
+311,883337,Scottsdale Unified School District 48,AZ,23326,True,False,437.2802880905427420
+312,883401,Washington School District 6,AZ,23306,True,False,85.8148116364884579
+313,883089,Chaffey Union High School District,CA,23271,True,False,429.7193932362167505
+314,883646,Manteca Unified School District,CA,23244,True,False,172.0874204095680606
+315,969541,Judson Independent School District,TX,23229,True,False,430.4963623057385165
+316,975631,Richmond Public Schools,VA,23151,True,False,345.5574273249535657
+317,983199,Puyallup School District 3,WA,23146,True,False,432.0400933206601573
+318,881705,Birmingham City School District,AL,23141,True,False,194.4600492632124800
+319,969509,Hurst-Euless-Bedford School District,TX,23115,True,False,475.8814622539476530
+320,983283,Vancouver School District,WA,23036,True,False,217.0515714533773225
+321,929357,Alamance-Burlington School District,NC,23005,True,False,217.3440556400782439
+322,881583,Murrieta Valley Unified School District,CA,22967,True,True,870.8146471023642618
+323,883773,Palm Springs Unified School District,CA,22946,True,True,1089.5145123333042796
+324,915466,Washington County School District,MD,22936,True,False,305.1970701081269620
+325,888977,Bay County School District,FL,22838,True,False,199.2293545844644890
+326,959627,Providence School District,RI,22816,True,False,438.2889200561009818
+327,969376,Galena Park Independent School District,TX,22777,True,False,131.7118145497651139
+328,903661,Blue Valley Unified School District 229,KS,22673,True,False,529.2638821505755745
+329,902032,Evansville-Vanderburgh School Corp.,IN,22662,True,False,441.2673197422998853
+330,889896,Coweta County School System,GA,22567,True,False,212.6999601187574777
+331,889862,Bibb County Public Schools,GA,22561,True,False,403.3509152963077878
+332,969802,Northwest Independent School District,TX,22549,True,False,443.4786465031708723
+333,962234,Beaufort County School District,SC,22517,True,False,266.4653373007061331
+334,883140,Colton Joint Unified School District,CA,22468,True,False,449.5282179099163254
+335,983051,Federal Way School District 210,WA,22249,True,False,224.7292013124185357
+336,909711,Bossier Parish School District,LA,22234,True,True,899.5232526760816767
+337,881490,Hesperia Unified School District,CA,22151,True,False,541.7362647284546973
+338,883223,Downey Unified School District,CA,21991,True,False,454.7314810604338138
+339,883465,Hemet Unified School District,CA,21962,True,False,455.3319369820599217
+340,909656,Ascension Parish School District,LA,21942,True,True,911.4939385653085407
+341,954024,Pittsburgh School District,PA,21905,True,False,342.3875827436658297
+342,884055,Wm S Hart Union Hs District,CA,21876,True,False,457.1219601389650759
+343,903551,Kansas City Unified School District 500,KS,21760,True,False,137.8676470588235294
+344,949708,South-Western City School District,OH,21643,True,False,138.6129464491983551
+345,949719,Toledo City School District,OH,21641,True,False,138.6257566655884663
+346,883752,Ontario-Montclair School District,CA,21629,True,True,924.6844514309491886
+347,969843,Pearland Ind. School District,TX,21581,True,True,1899.8192854826004356
+348,883729,Newport-Mesa Unified School District,CA,21566,True,False,463.6928498562552165
+349,983977,Kenosha Unified School District 1,WI,21527,True,False,464.5329121568263111
+350,881574,Lake Elsinore Unified School District,CA,21489,True,False,232.6771836753687933
+351,882170,Mesa Valley School District 51,CO,21477,True,False,232.8071890859989756
+352,983159,Northshore School District 417,WA,21470,True,False,512.3428039124359571
+353,968979,Allen Independent School District,TX,21469,True,False,465.7878801993572127
+354,881717,Academy School District 20,CO,21440,True,False,419.7761194029850746
+355,902206,Hamilton Southeastern Schools,IN,21367,True,False,280.8068516871811672
+356,882764,Springdale Public Schools,AR,21359,True,True,1404.5601385832670069
+357,884028,Vista Unified School District,CA,21353,True,False,234.1591345478387112
+358,904407,Boone County School District,KY,21296,True,False,234.7858752817430503
+359,882661,Antelope Valley Un H S Dist,CA,21272,True,False,470.1015419330575404
+360,967225,Wilson County School District,TN,21183,True,False,472.0766652504366709
+361,883152,Compton Unified School District,CA,21010,True,False,523.5602094240837696
+362,884266,New Haven Public School District,CT,20948,True,False,479.7594042390681688
+363,983931,Green Bay Area Public School District,WI,20943,True,False,477.4865110060640787
+364,924517,Rockwood School District R 6,MO,20919,True,False,478.0343228643816626
+365,968680,Hays Consolidated Independent School District,TX,20881,True,True,957.8085340740385997
+366,883893,San Marcos Unified School District,CA,20836,True,False,479.9385678633134959
+367,929555,Harnett County School District,NC,20777,True,False,192.5205756365211532
+368,884177,Bridgeport School District,CT,20761,True,False,626.1740763932373200
+369,883835,Redlands Unified School District,CA,20732,True,False,511.2868994790661779
+370,883459,Hayward Unified School District,CA,20682,True,False,241.7561164297456726
+371,919624,Dearborn Public School District,MI,20635,True,False,484.6135207172280107
+372,929563,Iredell-Statesville School District,NC,20566,True,False,364.6795682193912282
+373,883309,Fairfield-Suisun Unified School District,CA,20559,True,False,486.4049807870032589
+374,884242,Hartford School System,CT,20548,True,False,486.6653688923496204
+375,983040,Edmonds School District 15,WA,20508,True,False,487.6145894285157012
+376,883774,Palmdale School District,CA,20495,True,False,487.9238838741156380
+377,922723,Osseo Area School District 279,MN,20440,True,False,391.3894324853228963
+378,882496,A B C Unified School District,CA,20391,True,False,490.4124368593987544
+379,949903,Olentangy Local School District,OH,20322,True,False,344.4542859954728865
+380,983082,Issaquah School District 411,WA,20289,True,False,98.5755828281334713
+381,949559,Akron City School District,OH,20223,True,False,346.1405330564209069
+382,946867,Syracuse City School District,NY,20167,True,False,99.1719145138096891
+383,883328,Folsom Cordova Unified School District,CA,20130,True,False,496.7709885742672628
+384,889918,Fayette County Board Of Education,GA,20115,True,False,616.4553815560526970
+385,975562,Hampton City School District,VA,20008,True,False,499.8000799680127949
+386,952109,Hillsboro School District 1J,OR,20003,True,False,499.9250112483127531
+387,924436,North Kansas City School District 74,MO,19961,True,False,250.4884524823405641
+388,884185,Val Verde Unified School District,CA,19924,True,False,501.9072475406544871
+389,983048,Everett School District 2,WA,19892,True,False,301.6287954956766539
+390,883641,Madera Unified School District,CA,19817,True,False,580.3098349901599637
+391,883771,Pajaro Valley Unified School District,CA,19726,True,False,506.9451485349285207
+392,889976,Newton County School District,GA,19682,True,False,315.0086373336043085
+393,901002,Community Unit School District 300,IL,19544,True,False,312.1162505116659844
+394,929601,Rowan-Salisbury School District,NC,19519,True,False,256.1606639684410062
+395,951628,Putnam City Independent School District 1,OK,19475,True,False,513.4788189987163030
+396,909743,Ouachita Parish School District,LA,19420,True,False,514.9330587023686921
+397,982970,Bellevue School District 405,WA,19406,True,False,309.1827269916520664
+398,946246,Brentwood Union Free Dist,NY,19356,True,False,103.3271337053110147
+399,882084,Madison County School District,AL,19352,True,False,258.3712277800744109
+400,909761,Tangipahoa Parish School District,LA,19333,True,True,1034.5005948378420318
+401,929539,Davidson County School District,NC,19245,True,False,155.8846453624318005
+402,969294,Eagle-Mtn Saginaw Independent School District,TX,19242,True,False,519.6964972456085646
+403,983087,Kennewick School District 17,WA,19228,True,False,260.0374453921364677
+404,926692,Rankin County School District,MS,19205,True,False,156.2093204894558709
+405,882621,Alvord Unified School District,CA,19095,True,False,523.6973029588897617
+406,882263,Shelby County School District,AL,19034,True,False,236.4190396133235263
+407,983074,Highline School District 401,WA,19018,True,False,578.3994110842359870
+408,983765,Berkeley Co School District,WV,19000,True,False,263.1578947368421053
+409,982974,Bethel School District 403,WA,18919,True,False,528.5691632750145357
+410,882700,Matanuska-Sustina Borough School District,AK,18809,True,False,106.3320750704449997
+411,883545,Jurupa Unified School District,CA,18799,True,False,531.9431884674716740
+412,883438,Hacienda La Puente Unified Dist,CA,18791,True,False,532.1696556862327710
+413,883154,Conejo Valley Unified School District,CA,18785,True,False,212.9358530742613788
+414,929619,Wayne County Public Schools,NC,18663,True,False,160.7458607940845523
+415,883181,Cupertino Union Elem School District,CA,18590,True,True,1075.8472296933835395
+416,882631,Anaheim City School District,CA,18548,True,False,161.7425059305585508
+417,969453,Harlingen Consolidated Independent School District,TX,18521,True,True,1079.8552993898817558
+418,889994,Rockdale County Public Schools,GA,18490,True,False,692.2660897782585181
+419,882336,Tuscaloosa Co School District,AL,18430,True,False,542.5935973955507325
+420,889019,Martin County School District,FL,18401,True,False,271.7243628063692191
+421,969032,Beaumont Independent School District,TX,18378,True,False,544.1288497116117097
+422,883128,Coachella Valley Unified School District,CA,18373,True,False,544.2769281010177979
+423,953691,Central Bucks School District,PA,18367,True,False,544.4547285893177982
+424,984137,Racine Unified School District,WI,18326,True,False,545.6728145803776056
+425,883749,Oceanside City Unified School District,CA,18312,True,True,1092.1799912625600699
+426,924149,Fort Zumwalt School District,MO,18301,True,False,273.2091142560515819
+427,922783,South Washington Co School D 833,MN,18254,True,False,219.1300536868631533
+428,889002,Hernando County School District,FL,18192,True,False,275.8355321020228672
+429,884338,Waterbury School District,CT,18151,True,True,1101.8676656933502286
+430,883735,Norwalk-La Mirada Un School District,CA,18093,True,False,552.6999392030066877
+431,915464,St Mary'S County Public Schools,MD,18067,True,False,276.7476614822604749
+432,975563,Hanover County Public Schools,VA,18039,True,False,221.7417816952159211
+433,970133,Tyler Independent School District,TX,18030,True,True,1109.2623405435385469
+434,909763,Terrebonne Parish School District,LA,17917,True,False,111.6258302171122398
+435,951149,Broken Arrow School District 3,OK,17915,True,False,223.2765838682668155
+436,924339,Lee's Summit School District R 7,MO,17907,True,False,564.0252415256603563
+437,882989,Panama-Buena Vista Union School District,CA,17898,True,False,280.7576265504525645
+438,983183,Pasco School District 1,WA,17839,True,True,1121.1390773025393800
+439,924464,Parkway School District,MO,17789,True,False,562.1451458766653550
+440,883076,Cartwright School District 83,AZ,17783,True,False,562.3348141483439240
+441,924065,Columbia School District,MO,17763,True,False,562.9679671226707200
+442,883716,Napa Valley Unified School District,CA,17718,True,False,564.3977875606727622
+443,924270,Hazelwood School District,MO,17659,True,False,566.2834815108443287
+444,901520,Oswego School District 308,IL,17470,True,False,228.9639381797366915
+445,902190,South Bend Community School Corp,IN,17453,True,True,1145.9347963100899559
+446,962320,Rock Hill School District 3,SC,17414,True,False,287.1253014815665556
+447,883765,Oxnard Un High School District,CA,17368,True,True,1209.1202210962690005
+448,952159,Bend/La Pine Unified School District,OR,17367,True,False,86.3707030575228882
+449,929596,Randolph County School District,NC,17367,True,False,172.7414061150457765
+450,954043,Reading School District,PA,17280,True,False,173.6111111111111111
+451,919490,Ann Arbor Public School District,MI,17209,True,False,581.0912894415712708
+452,962323,Sumter School District,SC,17136,True,False,233.4267040149393091
+453,883942,Simi Valley Unified School District,CA,17115,True,False,584.2827928717499270
+454,919923,Plymouth-Canton Community Schools,MI,17062,True,False,117.2195522213105146
+455,924562,Francis Howell School District,MO,17057,True,False,439.7021750600926306
+456,962286,School District 5 Of Lexington And Richland Counties,SC,17051,True,False,234.5903466072371122
+457,882117,Alhambra Unified School District,CA,17024,True,False,587.4060150375939850
+458,983209,Renton School District 403,WA,17007,True,False,293.9965896395601811
+459,970181,Weslaco Independent School District,TX,16997,True,False,588.3391186680002353
+460,883188,Kyrene School District,AZ,16939,True,False,118.0707243638939725
+461,884024,Ventura Unified School District,CA,16927,True,False,590.7721391859159922
+462,882922,Santa Maria Bonita School District,CA,16868,True,False,296.4192553948304482
+463,883427,Grossmont Union H S District,CA,16854,True,False,237.3323840037973181
+464,942802,Rio Rancho Public School District,NM,16827,True,False,594.2829975634397100
+465,928799,Billings School District 2,MT,16824,True,False,594.3889681407513077
+466,883764,Oxnard School District,CA,16809,True,False,178.4758165268606104
+467,922750,Rochester School District 535,MN,16765,True,True,715.7769161944527289
+468,883784,Pasadena Unified School District,CA,16748,True,False,597.0862192500597086
+469,882180,Weld County Schoold District 6,CO,16710,True,False,299.2220227408737283
+470,952279,North Clackamas School District 12,OR,16690,True,False,599.1611743559017376
+471,911047,Brockton Public School District,MA,16682,True,True,839.2279103225032970
+472,881948,Bentonville Public Schools,AR,16609,True,True,1324.5830573785297128
+473,953606,Allentown School District,PA,16596,True,False,120.5109664979513136
+474,929528,Catawba County School District,NC,16544,True,False,181.3346228239845261
+475,951753,Union Independent School District 9,OK,16543,True,True,2055.2499546636039412
+476,901747,Valley View Community Unit School District 365U,IL,16526,True,True,974.2224373714147404
+477,894205,Cedar Rapids Community School District,IA,16506,True,False,424.0882103477523325
+478,882667,Antioch Unified School District.,CA,16449,True,False,607.9396923825156544
+479,962300,Pickens County School District,SC,16378,True,False,305.2875809012089388
+480,919590,Chippewa Valley School District,MI,16332,True,False,61.2294881214793044
+481,969945,Rockwall Independent School District,TX,16318,True,False,306.4100992768721657
+482,883289,Escondido Union Elem School District,CA,16250,True,False,184.6153846153846154
+483,969105,Bryan Independent School District,TX,16200,True,False,617.2839506172839506
+484,883022,Cajon Valley Union School District,CA,16155,True,False,619.0034045187248530
+485,901803,Waukegan Cud60,IL,16150,True,False,495.3560371517027864
+486,901466,Naperville Community Unit School District 203,IL,16140,True,False,495.6629491945477076
+487,902155,Perry Township School Corporation,IN,16128,True,False,620.0396825396825397
+488,901976,Carmel-Clay Schools,IN,16082,True,False,310.9066036562616590
+489,982951,Auburn School District 408,WA,16031,True,False,311.8957020772253758
+490,924630,Wentzville R-Iv School District,MO,15978,True,False,625.8605582676179747
+491,962259,Florence Public School District 1,SC,15971,True,False,377.5593262788804709
+492,972148,Cache School District,UT,15950,True,False,626.9592476489028213
+493,951548,Norman Public School District,OK,15942,True,False,627.2738677706686739
+494,915447,Calvert County Public Schools,MD,15941,True,False,690.0445392384417540
+495,902082,Msd Lawrence Township,IN,15936,True,False,627.5100401606425703
+496,969736,Mission Consolidated Independent School District,TX,15879,True,False,629.7625795075256628
+497,883502,Huntington Beach Un H S Dist,CA,15866,True,False,630.2785831337451153
+498,902257,Msd Wayne Township,IN,15832,True,False,473.7241030823648307
+499,968966,Abilene Independent School District,TX,15827,True,False,315.9158400202186138
+500,983313,Yakima School District 7,WA,15804,True,False,126.5502404454568464
+501,882515,Pueblo City School District 60,CO,15802,True,False,126.5662574357676244
+502,949839,Lakota Local School District,OH,15790,True,False,316.6561114629512350
+503,941655,Toms River Regional School District,NJ,15783,True,False,126.7186213014002408
+504,883363,Sunnyside Unified School District 12,AZ,15767,True,False,126.8472125325045982
+505,949927,Hilliard City School District,OH,15752,True,False,317.4200101574403250
+506,886871,Red Clay School District,DE,15744,True,False,482.7235772357723577
+507,882699,Rogers Public School District 30,AR,15739,True,True,1270.7287629455492725
+508,949928,Dublin City School District,OH,15729,True,False,127.1536652043995168
+509,952214,Eugene School District 4 J,OR,15727,True,True,731.2265530616137852
+510,883079,Central Unified School District,CA,15643,True,False,639.2635683692386371
+511,883155,Glendale Union High School District,AZ,15609,True,False,256.2624127106156704
+512,889006,Indian River Co School District,FL,15552,True,False,64.3004115226337449
+513,983142,Mukilteo School District 6,WA,15544,True,False,128.6670097786927432
+514,941199,Edison Twp School District,NJ,15516,True,False,193.3488012374323279
+515,970000,Schertz-Cibolo-Universal City Isd,TX,15497,True,False,645.2861844227915080
+516,929582,Nash-Rocky Mount School District,NC,15473,True,False,258.5148322885025528
+517,884323,Stamford School District,CT,15435,True,True,1425.3320375769355361
+518,883782,Paramount Unified School District,CA,15367,True,False,650.7451031430988482
+519,883683,Modesto City School District,CA,15339,True,False,651.9329812895234370
+520,888983,Citrus County School District,FL,15328,True,False,326.2004175365344468
+521,919704,Grand Rapids Public Schools,MI,15302,True,True,985.1653378643314599
+522,975485,Alexandria City Pub School District,VA,15302,True,False,326.7546725918180630
+523,911165,Lynn School District,MA,15299,True,True,784.3649911758938493
+524,883682,Modesto City Elementary,CA,15295,True,False,653.8084341288002615
+525,883905,Santa Clara Unified School District,CA,15254,True,True,1311.1315064901009571
+526,915450,Cecil County Public School District,MD,15226,True,False,410.4820701431761461
+527,969235,Crowley Independent School District,TX,15215,True,False,657.2461386789352613
+528,904568,Warren County Public School District,KY,15198,True,False,328.9906566653507040
+529,924310,Kansas City School District,MO,15179,True,False,329.4024639304301996
+530,929534,Cleveland County School District,NC,15123,True,False,198.3733386232890300
+531,915467,Wicomico County School District,MD,15104,True,False,132.4152542372881356
+532,969283,Donna Independent School District,TX,15071,True,False,663.5259770420011943
+533,883873,Salinas Union High School District,CA,15040,True,False,664.8936170212765957
+534,882995,Burbank Unified School District,CA,15025,True,False,665.5574043261231281
+535,970229,Wylie Isd,TX,15019,True,False,665.8232904987016446
+536,881696,Tracy Unified School District,CA,15001,True,False,266.6488900739950670
+537,983157,North Thurston School District 3,WA,14962,True,False,334.1799224702579869
+538,889907,Dougherty County School System,GA,14946,True,False,488.4249966546233106
+539,970160,Waco Independent School District,TX,14946,True,False,133.8150675766091262
+540,894243,Davenport Community School District,IA,14940,True,False,214.1900937081659973
+541,888982,Charlotte County School District,FL,14912,True,False,670.6008583690987124
+542,882229,Fort Smith Public School,AR,14888,True,True,1343.3637829124126814
+543,919949,Rochester Community School District,MI,14844,True,False,673.6728644570196712
+544,889876,Carroll County School District,GA,14842,True,False,296.4560032340654898
+545,902057,Hammond City School District,IN,14806,True,False,675.4018641091449412
+546,969296,Eagle Pass Independent School District,TX,14806,True,False,675.4018641091449412
+547,949733,Westerville City School District,OH,14794,True,False,337.9748546708124916
+548,969450,Harlandale Independent School District,TX,14769,True,False,270.8375651702891191
+549,881533,Pleasanton Unified School District,CA,14728,True,False,339.4894079304725693
+550,969973,San Angelo Independent School District,TX,14723,True,False,305.6442301161448074
+551,926614,Harrison County School District,MS,14689,True,False,136.1563074409422016
+552,902247,Vigo County School Corporation,IN,14689,True,False,680.7815372047110082
+553,983721,Appleton Area School District,WI,14686,True,False,680.9206046574969359
+554,909734,Lafourche Parish,LA,14653,True,False,682.4541049614413431
+555,924297,Independence Mo Public Schools,MO,14648,True,False,341.3435281267067176
+556,967194,Sevier County School District,TN,14593,True,False,171.3150140478311519
+557,886859,Christina School District,DE,14538,True,False,687.8525244187646169
+558,969776,New Caney Independent School District,TX,14492,True,False,690.0358818658570246
+559,884031,Walnut Valley Unified School District,CA,14473,True,False,345.4708768050853313
+560,972236,Tooele District,UT,14470,True,False,691.0850034554250173
+561,895470,Nampa School District 131,ID,14438,True,False,415.5700235489680011
+562,975650,Suffolk City School District,VA,14425,True,False,346.6204506065857886
+563,972226,Provo City School District,UT,14421,True,False,693.4331877123639137
+564,968963,College Station Independent School District,TX,14384,True,False,208.5650723025583982
+565,881755,Porterville Unified School District,CA,14368,True,False,487.1937639198218263
+566,904487,Kenton County School District,KY,14351,True,False,348.4077764615706223
+567,924099,Blue Springs School District R 4,MO,14319,True,True,1047.5591870940708150
+568,970157,Victoria Independent School District,TX,14319,True,False,356.1701236119840771
+569,951499,Midwest City-Del City School District,OK,14302,True,False,699.2029086841001259
+570,911161,City Of Lowell,MA,14297,True,False,699.4474365251451353
+571,951435,Lawton Public School District I 8,OK,14280,True,True,700.2801120448179272
+572,941508,Passaic City School District,NJ,14276,True,False,280.1905295601008686
+573,889858,Barrow County School District,GA,14241,True,False,140.4395758724808651
+574,975635,Roanoke County School District,VA,14235,True,True,702.4938531787846856
+575,901634,Schaumburg Community Consolidated District 54,IL,14222,True,False,351.5679932498945296
+576,929583,Craven County Schools,NC,14171,True,False,211.6999506033448592
+577,984864,Laramie County School District #1,WY,14170,True,True,705.7163020465772759
+578,894446,Sioux City Community School District,IA,14137,True,True,707.3636556553724270
+579,919803,Livonia Public School District,MI,14115,True,True,708.4661707403471484
+580,882386,Thompson School District R-2J,CO,14089,True,True,709.7735822272695010
+581,920030,Warren Consolidated School District,MI,14088,True,False,70.9823963657013061
+582,883640,Lynwood Unified School District,CA,14086,True,False,141.9849495953428937
+583,970047,Southwest Independent School District,TX,14067,True,True,710.8836283500390986
+584,883087,Ceres Unified School District,CA,14065,True,False,568.7877710629221472
+585,890024,Walton County School District,GA,14056,True,False,106.7159931701764371
+586,882126,Turlock Unified School District,CA,14051,True,False,142.3386235855099281
+587,883588,Lancaster School District,CA,14041,True,False,427.3199914536001709
+588,882353,Littleton School District 6,CO,14040,True,False,569.8005698005698006
+589,962321,Fort Mill School District 4,SC,14024,True,False,285.2253280091272105
+590,900919,Aurora East School District 131,IL,14002,True,False,142.8367376089130124
+591,883295,Etiwanda Elementary School District,CA,13986,True,False,71.5000715000715001
+592,901683,Springfield School District 186,IL,13974,True,False,150.2790897380850150
+593,975620,Portsmouth Public Schools,VA,13963,True,True,716.1784716751414452
+594,881427,Hoover City School District,AL,13938,True,True,717.4630506528913761
+595,920029,Walled Lake Consolidated School District,MI,13920,True,True,718.3908045977011494
+596,937609,Manchester School District,NH,13886,True,False,460.8958663401987613
+597,909757,St Landry Parish School District,LA,13886,True,False,144.0299582313121129
+598,894321,Iowa City Community School District,IA,13882,True,False,216.1071891658262498
+599,982997,Central Valley School District 356,WA,13873,True,False,144.1649246738268579
+600,881856,Brighton School District 27 J,CO,13873,True,False,223.4556332444316298
+601,911150,Lawrence Public Schools,MA,13857,True,False,72.1656924298188641
+602,969425,Grapevine-Colleyville Ind S D,TX,13855,True,True,721.7610970768675568
+603,882846,Amphitheater Unified School District 10,AZ,13847,True,False,144.4356178233552394
+604,882471,Santa Barbara Unified School District,CA,13837,True,True,722.7000072270000723
+605,975467,Albemarle County School District,VA,13790,True,True,1450.3263234227701233
+606,904471,Hardin County School District,KY,13768,True,False,363.1609529343404997
+607,889859,Bartow County School District,GA,13768,True,False,138.0011621150493899
+608,941732,Woodbridge Twp School District,NJ,13762,True,False,145.3277139950588577
+609,970209,Wichita Falls Independent School District,TX,13738,True,False,582.3263939438055030
+610,953648,Bethlehem Area School District,PA,13716,True,True,801.9830854476523768
+611,965979,Rapid City Area School District 51-4,SD,13716,True,True,729.0755322251385244
+612,975633,Roanoke City Public Schools,VA,13677,True,True,731.1544929443591431
+613,883868,Rowland Heights School District,CA,13621,True,True,734.1604874825636884
+614,883371,Tempe Union High School District 213,AZ,13604,True,False,308.7327256689209056
+615,962277,Lancaster County School District,SC,13593,True,False,294.2691091002721989
+616,903669,Topeka Unified School District 501,KS,13570,True,True,736.9196757553426676
+617,882101,Falcon School District 49,CO,13524,True,False,391.8958887902987282
+618,929557,Henderson County Pub School District,NC,13515,True,False,221.9755826859045505
+619,883368,Fullerton Joint Union High School District,CA,13498,True,False,740.8504963698325678
+620,882737,Fairbanks-N Star Boro School District,AK,13492,True,False,296.4719833975689297
+621,909726,Iberia Parish School District,LA,13471,True,False,371.1676935639521936
+622,889886,Clarke County School District,GA,13447,True,False,304.9007213504870975
+623,942905,Gadsden I.S.D.,NM,13432,True,True,1488.9815366289458011
+624,969293,Duncanville Independent School District,TX,13358,True,True,748.6150621350501572
+625,883366,Fullerton Elem School District,CA,13358,True,True,1497.2301242701003144
+626,882750,Alhambra Elem School District 68,AZ,13342,True,False,374.7564083345825214
+627,952264,Medford School District 549 C,OR,13341,True,True,749.5689978262499063
+628,975549,Frederick County School District,VA,13338,True,False,224.9212775528565002
+629,889926,Glynn County School District,GA,13331,True,False,127.5223164053709399
+630,904417,Bullitt County School District,KY,13322,True,False,375.3190211679927939
+631,946789,Sachem Central School District,NY,13303,True,False,150.3420281139592573
+632,949597,Dayton City School District,OH,13298,True,False,150.3985561738607309
+633,882758,Baldwin Park Unified School District,CA,13279,True,True,753.0687551773476918
+634,901488,Mclean County School District Unit 5,IL,13264,True,True,753.9203860072376357
+635,890033,Whitfield County School District,GA,13186,True,False,394.3576520552100713
+636,901549,Peoria School District 150,IL,13181,True,False,151.7335558758819513
+637,969258,Deer Park Independent School District,TX,13174,True,False,151.8141794443601032
+638,926648,Madison County School District,MS,13171,True,False,303.6975172727962949
+639,884022,Vallejo City Unified School District,CA,13145,True,False,228.2236591860022822
+640,984893,Natrona County School District # 1,WY,13127,True,False,205.6829435514588253
+641,883153,Glendale Elem School District 40,AZ,13107,True,False,152.5902189669642176
+642,970120,Tomball Independent School District,TX,13093,True,True,763.7668983426258306
+643,883616,Livermore Vly Jt Unified School District,CA,13088,True,False,382.0293398533007335
+644,902228,Tippecanoe School Corporation,IN,13021,True,False,153.5980339451655019
+645,902028,Elkhart Community School District,IN,12993,True,True,769.6451935657661818
+646,881515,Apple Valley Unified School District,CA,12896,True,False,310.1736972704714640
+647,969213,Coppell Independent School District,TX,12890,True,True,2327.3855702094647013
+648,953964,North Penn School District,PA,12885,True,False,465.6577415599534342
+649,983211,Richland School District 400,WA,12877,True,False,388.2891977945173565
+650,922590,Elk River Independentendence School District 728,MN,12866,True,False,116.5863516244364993
+651,983882,Wood County School District,WV,12860,True,True,777.6049766718506998
+652,889810,Troup County School System,GA,12848,True,False,225.7160647571606476
+653,983775,Cabell County Schools,WV,12831,True,False,155.8724962980282129
+654,883881,San Dieguito Un High School District,CA,12788,True,False,781.9831091648420394
+655,922749,Robbinsdale School District 281,MN,12776,True,False,391.3587977457733250
+656,929579,Moore County School District,NC,12764,True,False,235.0360388592917581
+657,967201,Sullivan County School District,TN,12758,True,False,235.1465746982285625
+658,884025,Victor Elem School District,CA,12744,True,True,941.6195856873822976
+659,983007,Clover Park School District 400,WA,12741,True,False,470.9206498704968213
+660,883394,Vail School District 20,AZ,12725,True,False,157.1709233791748527
+661,969668,Magnolia Independent School District,TX,12718,False,,
+662,933571,Bismarck School District 1,ND,12696,True,True,787.6496534341524890
+663,975670,York County Public Schools,VA,12682,True,False,157.7038322031225359
+664,967158,Maury County School District,TN,12680,True,False,315.4574132492113565
+665,882690,Pulaski Co Spec School District,AR,12680,True,True,1892.7444794952681388
+666,953750,Downingtown Area School District,PA,12656,True,False,158.0278128950695322
+667,911213,New Bedford School District,MA,12640,True,True,791.1392405063291139
+668,967152,Jackson-Madison County School System,TN,12637,True,True,791.3270554720265886
+669,911219,Newton School District,MA,12634,True,False,269.1150862751306000
+670,962226,Anderson County School District 5,SC,12604,True,False,317.3595683909869883
+671,929522,Burke County Public Schools,NC,12584,True,False,317.8639542275905912
+672,901686,St Charles CU School District 303,IL,12570,True,True,875.0994431185361973
+673,929600,Rockingham County Schools,NC,12549,True,False,318.7504980476531995
+674,929520,Brunswick County Schools,NC,12546,True,False,318.8267176789414953
+675,901839,Community Unit School District 200,IL,12538,True,False,478.5452225235284734
+676,919762,Kalamazoo Public School District,MI,12525,True,False,79.8403193612774451
+677,901523,Palatine Cc School District 15,IL,12496,True,True,800.2560819462227913
+678,952340,Tigard Tualatin School District 23 J,OR,12488,True,True,4003.8436899423446509
+679,941661,Union City School District,NJ,12457,True,False,160.5522999116962350
+680,884076,Yuba City Unified School District,CA,12437,True,True,804.0524242180590174
+681,884018,Vacaville Unified School District,CA,12380,True,False,242.3263327948303716
+682,889003,Highlands County School District,FL,12258,True,False,163.1587534671235112
+683,895480,Pocatello School District 25,ID,12256,True,False,244.7780678851174935
+684,972223,Ogden School District,UT,12249,True,True,1632.7863499061147849
+685,920010,Troy School District,MI,12248,True,True,816.4598301763553233
+686,883573,La Mesa-Spring Valley School District,CA,12222,True,True,1636.3933889707085583
+687,883775,Palo Alto Unified School District,CA,12219,True,True,1636.7951550863409444
+688,904529,Oldham County School District,KY,12216,True,False,409.2992796332678454
+689,881485,Rocklin Unified School District,CA,12214,True,False,327.4930407728835762
+690,954159,Upper Darby School District,PA,12212,True,True,1228.3000327546675401
+691,883208,Marana School District 6,AZ,12203,True,True,819.4706219782020815
+692,969080,Brazosport Independent School District,TX,12186,True,False,328.2455276546857049
+693,924348,Liberty Public Schools,MO,12158,True,True,822.5037012666557000
+694,983855,Raleigh County Schools,WV,12149,True,False,164.6226026833484237
+695,929623,Wilson County School District,NC,12131,True,False,247.3003050037095046
+696,929529,Chapel Hill-Carrboro City Dist,NC,12088,True,False,330.9066843150231635
+697,882845,Bellflower Unified School District,CA,12078,True,False,82.7951647623778771
+698,900920,West Aurora School District 129,IL,12036,True,False,415.4204054503157195
+699,929524,Caldwell County School District,NC,11990,True,False,250.2085070892410342
+700,889913,Effingham County School District,GA,11988,True,False,358.6920253586920254
+701,883166,Higley Unified School District 60,AZ,11975,True,False,835.0730688935281837
+702,902252,Msd Of Warren Township,IN,11970,True,False,417.7109440267335004
+703,951399,Jenks Independent School District 5,OK,11965,True,False,167.1541997492687004
+704,942957,Santa Fe School District,NM,11934,True,True,1256.9130216189039718
+705,888993,Flagler County School District,FL,11924,True,False,209.6611875209661188
+706,969117,Burleson Independent School District,TX,11895,True,True,840.6893652795292140
+707,881627,Natomas Unified School District,CA,11890,True,False,504.6257359125315391
+708,984257,Waukesha School District,WI,11889,True,True,841.1136344520144672
+709,883721,New Haven Unified School District,CA,11873,True,False,421.1235576518150425
+710,904503,Madison County School District,KY,11855,True,False,168.7051876845212990
+711,975638,Rockingham County Public Schools,VA,11852,True,True,843.7394532568342896
+712,969388,Georgetown Ind School District,TX,11843,True,False,168.8761293591150891
+713,895421,Bonneville Joint School District 93,ID,11839,True,False,253.3997803868569981
+714,900908,Township High School District 214,IL,11836,True,True,1182.8320378506252112
+715,883098,Chico Unified School District,CA,11809,True,True,846.8117537471420103
+716,901955,Bartholomew Consolidated School Corporation,IN,11803,True,False,593.0695585867999661
+717,883299,Evergreen Elem School District,CA,11793,True,True,847.9606546256253710
+718,901524,Township High School District 211,IL,11780,True,False,424.4482173174872666
+719,904440,Daviess County School District,KY,11756,True,False,170.1258931609390949
+720,924521,St Joseph School District,MO,11742,True,True,766.4793050587634134
+721,883369,Tempe School District 3,AZ,11657,True,False,686.2829201338251694
+722,969899,Prosper Independent School District,TX,11646,True,True,858.6639189421260519
+723,883903,Sanger Unified School District,CA,11641,True,True,859.0327291469805000
+724,975665,Williamsburg-James City County,VA,11608,True,False,430.7374224672639559
+725,941278,Hamilton Township School District,NJ,11607,True,False,430.7745326096321185
+726,936150,Papillion-Lavista School District,NE,11585,True,True,863.1851532153646957
+727,954189,West Chester Area District,PA,11577,True,False,172.7563272004837177
+728,972145,Box Elder School District,UT,11555,True,True,865.4262224145391605
+729,884054,Whittier Union High School District,CA,11534,True,True,1040.4022888850355471
+730,889021,Nassau County School District 45,FL,11525,True,False,433.8394793926247289
+731,982969,Battle Ground School District 119,WA,11522,True,False,433.9524388127061274
+732,969185,Clint Independent School District,TX,11511,True,True,868.7342541916427765
+733,929571,Lincoln County School District,NC,11509,True,False,260.6655660787210010
+734,883590,Las Virgenes Unified School District,CA,11507,True,True,869.0362388111584253
+735,901030,Cicero School District 99,IL,11496,True,True,1739.7355601948503827
+736,901281,"Joliet Public Schools, District 86",IL,11486,True,False,87.0625108828138604
+737,883391,Gilroy Unified School District,CA,11469,True,True,1307.8733978550876275
+738,894169,Ankeny Community School District,IA,11457,True,False,610.9801867853713887
+739,983830,Monongalia County Schools,WV,11454,True,False,436.5287235900122228
+740,967189,Robertson County School District,TN,11448,True,False,87.3515024458420685
+741,952231,Gresham-Barlow School District 10J,OR,11421,True,True,875.5800717975658874
+742,881892,Elmore County School District,AL,11417,True,False,197.0745379696943155
+743,942906,Gallup-Mckinley Co School District,NM,11409,True,False,262.9503023928477518
+744,883196,Litchfield Elem School District 79,AZ,11407,True,False,52.5992811431577102
+745,902256,MSD Washington Township,IN,11400,True,False,438.5964912280701754
+746,883173,Covina-Valley Unified School District,CA,11385,True,True,878.3487044356609574
+747,953694,Central Dauphin School District,PA,11382,True,False,263.5740643120716921
+748,902158,Msd Pike Township,IN,11369,True,False,439.7924179787140470
+749,962313,Spartanburg County School District 6,SC,11348,True,False,264.3637645400070497
+750,924229,Fox School District C 6,MO,11339,True,True,881.9119851838786489
+751,902117,New Albany Floyd County School Corp.,IN,11334,True,False,617.6107287806599612
+752,883778,Palos Verdes Peninsula Un Dist,CA,11334,True,False,441.1505205576142580
+753,953775,Erie's Public Schools,PA,11317,True,False,176.7252805513828753
+754,883894,San Mateo-Foster City Elem S D,CA,11294,True,False,177.0851779706038605
+755,953878,School District Of Lancaster,PA,11284,True,True,886.2105636299184686
+756,969260,Del Valle Independent School District,TX,11278,True,True,886.6820358219542472
+757,924463,Park Hill School District,MO,11272,True,False,443.5770049680624556
+758,982972,Bellingham School District 501,WA,11256,True,False,444.2075337597725657
+759,883798,Pittsburg Unified School District,CA,11233,True,True,890.2341315766046470
+760,953839,Hazleton Area School District,PA,11194,True,False,178.6671431123816330
+761,967185,Putnam County School District,TN,11179,True,False,357.8137579389927543
+762,967205,Tipton County School District,TN,11176,True,False,536.8647100930565497
+763,883056,Carlsbad Unified School District,CA,11153,True,False,268.9859230700260020
+764,884211,Danbury Public Schools,CT,11132,True,True,898.3111749910168883
+765,969982,San Felipe-Del Rio Cisd,TX,11129,True,True,898.5533291400844640
+766,922699,Mounds View School District 621,MN,11124,True,False,179.7914419273642575
+767,922809,Wayzata School District 284,MN,11123,True,True,1798.0760586172795109
+768,901962,Monroe County Community School Corp,IN,11122,True,False,359.6475454055026074
+769,982996,Central Kitsap School District 401,WA,11109,True,False,180.0342064992348546
+770,919147,Wayne-Westland Community Schools,MI,11103,False,,
+771,937626,Nashua School District,NH,11087,True,False,360.7828988905925859
+772,946659,Newburgh Enlarged Cty School District,NY,11081,True,False,270.7336882952802094
+773,975538,Fauquier County School District,VA,11065,True,False,451.8752824220515138
+774,883380,Tolleson Union H S District 214,AZ,11036,True,False,724.9003262051467923
+775,883430,Yuma Union High School District 70,AZ,11035,True,True,996.8282736746714998
+776,941142,Cherry Hill Township School District,NJ,11023,True,False,362.8776195228159303
+777,883863,Roseville City Elem School District,CA,11020,True,False,272.2323049001814882
+778,881501,Upland Unified School District,CA,11015,True,True,907.8529278256922379
+779,953733,Council Rock School District,PA,11006,True,True,908.5953116481918953
+780,983118,Marysville School District 25,WA,11000,True,False,459.0909090909090909
+781,902154,Penn Harris Madison School Corp,IN,10993,True,True,909.6697898662785409
+782,969276,Dickinson Independent School District,TX,10983,True,False,91.0498042429208777
+783,941657,Trenton City School District,NJ,10972,True,True,1367.1162960262486329
+784,941239,Freehold Reg High School District,NJ,10971,True,False,546.8963631391851244
+785,884276,Norwalk Public Schools,CT,10951,True,True,940.5533741210848324
+786,946444,Greece Central School District,NY,10949,True,False,273.9976253539135994
+787,946903,Wappingers Central School District,NY,10937,True,True,914.3275121148395355
+788,883910,Santa Monica-Malibu Un Dist,CA,10908,True,True,916.7583425009167583
+789,883670,Merced City Elem School District,CA,10900,False,,
+790,952310,Reynolds School District 7,OR,10900,True,False,587.1559633027522936
+791,941152,Clifton School District,NJ,10891,True,False,550.9135983839867781
+792,967064,Blount County Schools,TN,10855,True,False,184.2468908337171810
+793,883356,Fremont Union High School District,CA,10828,True,True,4617.6579239009974141
+794,962276,Kershaw County School District,SC,10826,True,False,554.2213190467393312
+795,942902,Farmington Muncpl School District 5,NM,10815,True,False,92.4641701340730467
+796,883915,Santa Rosa High,CA,10812,True,False,462.4491305956344802
+797,969652,Los Fresnos Consolidated Independent School District,TX,10808,True,True,927.0910436713545522
+798,933662,Fargo School District 1,ND,10805,True,True,925.4974548819990745
+799,946652,City School District Of New Rochelle,NY,10793,True,False,83.3873807097192625
+800,922656,Lakeville Independent School District 194,MN,10755,True,False,278.9400278940027894
+801,919789,Lansing School District,MI,10748,True,False,372.1622627465574991
+802,903564,Lawrence Unified School District #497,KS,10747,True,False,279.1476691169628734
+803,951531,Mustang Public Schools,OK,10742,True,False,186.1850679575498045
+804,969044,Belton Independent School District,TX,10696,True,False,373.9715781600598355
+805,889879,Catoosa County School District,GA,10690,True,False,196.4452759588400374
+806,883629,Los Banos Unified School District,CA,10687,True,True,935.7162908206231870
+807,889959,Lowndes County School District,GA,10681,True,False,121.7114502387416909
+808,889033,Putnam County School District,FL,10668,True,False,234.3457067866516685
+809,894489,Waterloo Community School District,IA,10666,True,True,750.0468779298706169
+810,895415,Coeur D'Alene School District 271,ID,10631,True,True,940.6452826639074405
+811,950271,Mason City School District,OH,10627,True,False,188.1998682600922179
+812,894255,Dubuque Community School District,IA,10626,True,True,941.0878976096367401
+813,882010,Cabot Public School District,AR,10625,True,True,2823.5294117647058824
+814,883693,Monterey Peninsula Unified Schs,CA,10624,True,True,941.2650602409638554
+815,970171,Waxahachie Independent School District,TX,10608,True,False,471.3423831070889894
+816,881526,Dublin Unified School District,CA,10608,True,False,94.2684766214177979
+817,983798,Harrison County School District,WV,10582,True,True,756.0007560007560008
+818,969976,San Benito Consolidated Independent School District,TX,10574,True,False,283.7147720824664271
+819,883888,San Lorenzo Unified School District,CA,10559,True,False,189.4118761246330145
+820,889869,Bulloch County School District,GA,10547,True,False,189.6273821939888120
+821,902047,Greater Clark Co School District,IN,10544,True,False,94.8406676783004552
+822,969029,Bastrop Independent School District,TX,10539,True,False,189.7713255527089857
+823,883638,Lucia Mar Unified School District,CA,10531,True,True,949.5774380400721679
+824,952195,David Douglas School District 40,OR,10528,True,False,132.9787234042553191
+825,952331,Springfield School District 19,OR,10525,True,False,142.5178147268408551
+826,886853,Appoquinimink School District,DE,10525,True,False,617.5771971496437055
+827,919804,L'Anse Creuse Public Schools,MI,10500,True,False,95.2380952380952381
+828,882594,Alum Rock Union Elem School District,CA,10494,True,True,952.9254812273680198
+829,883788,Perris Un High School District,CA,10474,True,False,954.7450830628222265
+830,924224,Ferguson-Florissant School District,MO,10472,True,False,572.9564553093964859
+831,949693,Parma City School District,OH,10458,True,False,191.2411550965767833
+832,922594,Minnetonka School District 276,MN,10455,True,False,286.9440459110473458
+833,933775,West Fargo School District 6,ND,10449,True,True,957.0293808019906211
+834,969928,Rio Grande City School District,TX,10446,True,False,478.6521156423511392
+835,881431,Madison City Schools,AL,10440,True,False,718.3908045977011494
+836,902123,Noblesville Schools,IN,10426,True,False,767.3124880107423748
+837,967048,Hamblen County School District,TN,10424,True,False,383.7298541826554106
+838,882329,Tuscaloosa City School District,AL,10416,True,False,240.0153609831029186
+839,962295,Oconee Co School District,SC,10405,True,True,2210.4757328207592504
+840,969311,Edgewood Independent School District,TX,10323,True,True,2906.1319383900029061
+841,889930,Griffin-Spalding County Schools,GA,10305,True,False,368.7530325084910238
+842,983873,Eau Claire School District,WI,10296,True,True,971.2509712509712510
+843,883667,Milpitas Unified School District,CA,10257,True,True,9749.4394072340840402
+844,928952,Great Falls Public Schools,MT,10250,True,False,195.1219512195121951
+845,886869,Brandywine School District,DE,10243,True,False,595.5286537147320121
+846,924384,Mehlville School District R 9,MO,10234,True,False,488.5675200312683213
+847,922531,Bloomington School District 271,MN,10225,True,True,977.9951100244498778
+848,949917,Pickerington School District,OH,10220,True,False,782.7788649706457926
+849,902253,Warrick County School Corp,IN,10210,True,False,489.7159647404505387
+850,895442,Idaho Falls School District 91,ID,10208,True,False,195.9247648902821317
+851,962249,Darlington County School District,SC,10207,True,False,391.8879200548643088
+852,954012,Pennsbury School District,PA,10176,True,True,982.7044025157232704
+853,911096,Fall River Public School District,MA,10163,True,True,1082.3575715831939388
+854,959604,Cranston Public Schools,RI,10144,True,False,98.5804416403785489
+855,983259,Sumner School District 320,WA,10134,True,False,394.7108742845865404
+856,949631,Hamilton City School District,OH,10125,True,True,987.6543209876543210
+857,883272,Pendergast School District 92,AZ,10124,True,False,395.1007506914263137
+858,883864,Roseville Jt Un High School District,CA,10106,True,True,989.6101325944983178
+859,922713,North St Paul-Maplewood S D,MN,10088,True,False,396.5107057890563045
+860,882924,Bonita Unified School District,CA,10083,True,True,991.7683229197659427
+861,883672,Merced Union High School District,CA,10071,True,True,992.9500546122530037
+862,967066,Bradley County School District,TN,10060,True,True,994.0357852882703777
+863,886862,Indian River School District,DE,10056,True,True,994.4311853619729515
+864,970014,Sharyland Independent School District,TX,10054,True,True,994.6290033817386115
+865,962309,Spartanburg County School District Two,SC,10049,True,False,398.0495571698676485
+866,889955,Liberty County School District,GA,10020,True,False,319.3612774451097804
+867,883946,Victor Valley Un H S District,CA,10010,True,True,999.0009990009990010
+868,942953,Roswell Independent School District,NM,10008,True,False,199.8401278976818545
+869,946887,Utica City School District,NY,9990,True,False,100.1001001001001001
+870,895498,Twin Falls School District 411,ID,9985,True,False,200.3004506760140210
+871,882518,Alameda City Unified School District,CA,9969,True,False,200.6219279767278564
+872,946949,Williamsville Central School District,NY,9961,True,False,501.9576347756249373
+873,882001,Bryant Public School District,AR,9953,True,True,2009.4443886265447604
+874,889919,Floyd County School District,GA,9949,True,False,341.7428887325359333
+875,929568,Lee County Schools,NC,9942,True,False,201.1667672500502917
+876,969302,East Central School District,TX,9942,True,True,1005.8338362502514585
+877,882209,Harrison School District Two,CO,9932,True,False,201.3693113169552960
+878,962222,Anderson County School District 1,SC,9926,True,False,402.9820672980052388
+879,882089,Conway Public School District 1,AR,9920,True,True,2016.1290322580645161
+880,983236,Snohomish School District 201,WA,9913,True,False,252.1940885705639060
+881,936032,Bellevue Public School District,NE,9911,True,False,302.6939763898698416
+882,884070,Woodland Joint Unified School District,CA,9904,True,True,1009.6930533117932149
+883,883920,Saugus Union School District,CA,9896,True,False,596.2004850444624091
+884,926635,Lamar County School District,MS,9893,True,False,303.2447184878196705
+885,883626,Los Alamitos Unified School District,CA,9891,True,False,404.4080477201496310
+886,942911,Hobbs Municipal School District,NM,9887,True,False,151.7143724082128047
+887,919668,Forest Hills Public Schools,MI,9850,True,False,101.5228426395939086
+888,949743,Worthington School District,OH,9841,True,False,304.8470683873590082
+889,949838,Fairfield City School District,OH,9838,True,True,1016.4667615368977434
+890,884231,Fairfield School District,CT,9818,True,False,203.7074760643715624
+891,946615,Middle Country Central School District,NY,9817,True,False,101.8641132728939595
+892,882206,Fayetteville School District # 1,AR,9816,True,True,2037.4898125509372453
+893,883884,San Jacinto Unified School District,CA,9813,True,True,2038.1127076327320901
+894,894490,Waukee Community School District,IA,9810,True,False,632.0081549439347604
+895,969135,Canyon Independent School District,TX,9806,True,False,611.8702834998980216
+896,954064,Scranton City School District,PA,9791,True,True,1021.3461342048820345
+897,975499,Augusta County School District,VA,9739,True,False,513.3997330321388233
+898,951589,Owasso Independent School District 11,OK,9737,True,True,1027.0103728047653281
+899,952352,West Linn-Wilsonville District 3 J,OR,9728,True,True,1027.9605263157894737
+900,984183,Sheboygan Area School District,WI,9723,True,False,102.8489149439473414
+901,983170,Olympia School District 111,WA,9723,True,False,205.6978298878946827
+902,883622,Lompoc Unified School District,CA,9721,True,True,1234.4409011418578336
+903,983852,Putnam County School District,WV,9715,True,False,514.6680391147709727
+904,943386,Elko County School District,NV,9715,True,True,1060.4734945959855893
+905,983967,Janesville School District,WI,9709,True,True,1029.9721907508497271
+906,941075,Bayonne Public Schools,NJ,9707,True,False,309.0553209024415370
+907,969354,Forney Independent School District,TX,9705,True,True,1030.3967027305512622
+908,975501,Bedford County School District,VA,9702,True,False,515.3576582148010719
+909,889892,Colquitt Co School District,GA,9697,True,False,350.6239043002990616
+910,881591,Redondo Beach Unified School District,CA,9692,True,True,1031.7787866281469253
+911,901020,Champaign Community School District 4,IL,9675,True,False,578.8113695090439276
+912,975598,Montgomery Co School District,VA,9674,True,False,516.8492867479842878
+913,909629,Acadia Parish School District,LA,9668,True,True,1034.3400910219280099
+914,941713,West Windsor-Plainsboro Reg S D,NJ,9667,True,True,1034.4470880314471915
+915,902076,Lake Central School Corp,IN,9656,True,False,517.8127589063794532
+916,969645,Longview Independent School District,TX,9654,True,False,310.7520198881292728
+917,882057,Lee County School District,AL,9653,True,False,258.9868434683518077
+918,941414,Middletown Twp School District,NJ,9635,True,False,622.7296315516346653
+919,883129,Flagstaff Unified School District,AZ,9634,True,False,212.7880423500103799
+920,882864,Berkeley Unified School District,CA,9629,True,False,207.7058884619378959
+921,886860,Colonial,DE,9627,True,True,1038.7451958034694090
+922,909765,Vermilion Parish School District,LA,9620,True,True,1039.5010395010395010
+923,883556,Kings Canyon Unified School District,CA,9611,True,False,520.2372281760482780
+924,888986,Columbia County School District,FL,9596,True,False,104.2100875364735306
+925,901260,Huntley School District 158,IL,9575,True,False,313.3159268929503916
+926,884341,West Hartford Public Schools,CT,9567,True,False,104.5259747047141215
+927,962266,Georgetown County School District,SC,9567,True,False,209.0519494094282429
+928,884005,Tulare City School District,CA,9565,True,True,1045.4783063251437533
+929,953736,Cumberland Valley School District,PA,9564,True,False,313.6762860727728984
+930,882832,Beaumont Unified School District,CA,9560,True,True,1046.0251046025104603
+931,935908,Grand Island Public Schools,NE,9554,True,True,1046.6820180029307097
+932,883668,Menifee Union Elementary School District,CA,9543,True,True,1152.6773551294142303
+933,983120,Mead School District 354,WA,9532,True,False,209.8195551825430130
+934,884261,New Britain School District,CT,9518,True,False,315.1922672830426560
+935,919658,Farmington Public Schools,MI,9510,True,True,1051.5247108307045216
+936,902013,East Allen County Schools,IN,9507,True,False,631.1139160618491638
+937,946805,Schenectady City School District,NY,9505,True,False,105.2077853761178327
+938,941524,Perth Amboy School District,NJ,9504,True,False,526.0942760942760943
+939,929592,Pender County School District,NC,9490,True,False,210.7481559536354057
+940,920005,Traverse City Area Public Schools,MI,9477,True,True,1055.1862403714255566
+941,881847,Cullman County School District,AL,9477,True,False,316.5558721114276670
+942,882672,Arcadia Unified School District,CA,9466,True,True,1056.4124234100993028
+943,983242,South Kitsap School District 402,WA,9446,True,False,211.7298327334321406
+944,883657,Marysville Jt Unified School District,CA,9436,True,False,423.9084357778719797
+945,969362,Frenship Independent School District,TX,9421,True,False,636.8750663411527439
+946,883131,Florence Unified School District 1,AZ,9414,True,False,212.4495432334820480
+947,984098,Oshkosh Area School District,WI,9400,True,False,106.3829787234042553
+948,901953,Avon Community School Corporation,IN,9392,True,True,958.2623509369676320
+949,941676,Vineland School District,NJ,9385,True,True,1065.5301012253596164
+950,969157,Channelview School District,TX,9373,True,False,213.3788541555531847
+951,983230,Shoreline School District 412,WA,9363,True,False,534.0168749332478906
+952,883421,Greenfield Union School District,CA,9361,True,False,534.1309689135776092
+953,983098,Lake Stevens School District 4,WA,9357,True,False,213.7437212781874532
+954,969265,De Soto Independent School District,TX,9355,True,False,534.4735435595938001
+955,882519,Pueblo Rural School District 70,CO,9335,True,True,1071.2372790573111944
+956,983804,Jefferson County School District,WV,9332,True,False,321.4744963566223746
+957,884045,Westminster Elem School District,CA,9328,True,True,1072.0411663807890223
+958,953948,Neshaminy School District,PA,9324,True,True,1072.5010725010725011
+959,909751,St Charles Parish School District,LA,9319,True,False,214.6153020710376650
+960,881677,Autauga County Board Of Education,AL,9307,True,False,161.1690125711829806
+961,884043,Westside Union Elem School District,CA,9301,True,True,1075.1532093323298570
+962,953999,Parkland School District,PA,9299,True,False,107.5384449940853855
+963,929622,Wilkes County School District,NC,9296,True,False,215.1462994836488812
+964,953698,Chambersburg Area School District,PA,9282,True,False,107.7354018530489119
+965,926627,Jackson County School District,MS,9278,True,False,107.7818495365380470
+966,883739,Oak Grove School District,CA,9265,True,True,2158.6616297895304911
+967,904491,Laurel County School District,KY,9255,True,False,108.0497028633171259
+968,946820,Shenendehowa Central School District,NY,9250,True,False,324.3243243243243243
+969,946832,Smithtown Central School District,NY,9249,True,False,216.2395934695642772
+970,883314,Roosevelt Elem School District 66,AZ,9245,True,False,216.3331530557057869
+971,952138,Greater Albany Public Schools,OR,9238,True,False,5.4124269322364148
+972,883069,Castro Valley Unified School District,CA,9223,True,False,216.8491813943402364
+973,922776,District 742 Community Schools,MN,9218,True,False,108.4834020394879583
+974,983822,Mercer County School District,WV,9216,True,False,542.5347222222222222
+975,881881,Dothan City School District,AL,9213,True,False,217.0845544339520243
+976,882062,Limestone County School District,AL,9209,True,False,162.8841350852426974
+977,889874,Camden County Board Of Education,GA,9199,True,False,326.1224046091966518
+978,883608,Lincoln Unified School District,CA,9185,True,True,1088.7316276537833424
+979,975618,Pittsylvania County Public Schools,VA,9182,True,False,108.9087344805053365
+980,882567,Widefield School District No. 3,CO,9181,True,False,108.9205968848709291
+981,984273,West Allis School District,WI,9157,True,True,1092.0607185759528230
+982,902041,Franklin Twp Community School Corp,IN,9151,True,False,327.8330237132553819
+983,969598,Lake Travis Independent School District,TX,9149,True,True,1093.0156301235107662
+984,894239,Council Bluffs Community School District,IA,9147,True,True,1093.2546190007652782
+985,882269,St Clair County School District,AL,9124,True,False,219.2021043402016659
+986,920032,Waterford School District,MI,9106,True,True,1098.1770261366132221
+987,972209,Iron County School District,UT,9102,True,False,109.8659635245001099
+988,969875,Port Arthur Independent School District,TX,9097,True,False,82.4447620094536660
+989,882683,Adams County School District 50,CO,9090,True,False,440.0440044004400440
+990,922555,Independent School District 112,MN,9085,True,False,370.9411117226197028
+991,911263,Quincy Public School District,MA,9079,True,False,462.6060138781804163
+992,883895,San Mateo Un High School District,CA,9077,True,False,550.8427894678858654
+993,962282,Lexington County School District 2,SC,9066,True,False,441.2089124200308846
+994,883027,Calexico Unified School District,CA,9065,True,False,110.3143960286817430
+995,969064,Boerne Independent School District,TX,9046,True,True,1326.5531726730046429
+996,962239,Cherokee County School District 1,SC,9043,True,False,331.7483136127391352
+997,894500,West Des Moines Community School District,IA,9026,True,False,332.3731442499446045
+998,929541,Duplin County School District,NC,9024,True,False,332.4468085106382979
+999,883872,Salinas City Elementary School District,CA,9023,True,False,554.1394214784439765

@@ -1,0 +1,17 @@
+,district_id,state_code,name,fiber_target_status_18,fiber_target_status_17,assumed_unscalable_campuses_18,known_unscalable_campuses_18,assumed_unscalable_campuses_17,known_unscalable_campuses_17,num_campuses,num_campuses_17
+0,881838,AR,Cossatot River School District,Target,Target,0,1,0.16,0,4,4
+1,882025,CO,Durango School District 9-R,Target,Target,0,2,0,1,11,11
+2,882543,AK,Yupiit School District,Target,Target,0,3,0,2,3,3
+3,882775,AK,Southeast Island School District,Target,Target,0,8,0.08,6,8,9
+4,883388,AZ,Tuba City Unified School District 15,Target,Target,0,4,0,2,4,4
+5,883918,CA,Saratoga Union Elem School District,Target,Target,0,4,0,3,4,4
+6,894146,IA,Riverside Community School District,Target,Target,0,2,0.24,0,3,3
+7,895448,ID,Kimberly School District 414,Target,Target,0,1,0,0,1,1
+8,901045,IL,Oakwood CUSD 76,Target,Target,0,3,0,2,3,3
+9,935936,NE,Dundy Co Public School District,Target,Target,0,2,0,1,3,3
+10,954095,PA,Southeastern Greene School District,Target,Target,0,1,0.16,0,2,2
+11,966032,SD,Platte-Geddes School District 11-5,Target,Target,0,2,0,1,3,3
+12,969090,TX,Brock Independent School District,Target,Target,0,1,0,0,2,2
+13,975563,VA,Hanover County Public Schools,Target,Target,0,3,0,2,23,23
+14,980675,VT,Franklin Northwest S U 21,Target,Target,0,4,0.32,0,5,5
+15,984292,WI,Whitefish Bay School District,Target,Target,0,1,0.24,0,3,3

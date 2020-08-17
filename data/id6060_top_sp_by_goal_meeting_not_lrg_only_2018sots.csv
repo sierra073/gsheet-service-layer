@@ -1,0 +1,4 @@
+,group,meeting_2014_goal_no_oversub,num_students_newly_meeting,num_students_connected_top_3,num_districts_connected_top_3,top_3,pct_districts_connected_top_3_switched,pct_students_connected_top_3_switched,pct_districts_connected_top_3_expiring_contracts,pct_students_connected_top_3_expiring_contracts,pct_districts_connected_top_3_expiring_contracts_cy,pct_students_connected_top_3_expiring_contracts_cy,num_students_connected_top_10
+0,same group,False,,18664,12,"['Spectrum', 'Merit Network', 'AT&T']",0.16666666666666666667,0.32286755250750107158,0.50000000000000000000,0.52275569572073296721,0E-20,,24642
+1,same group,True,1561813,34582,14,"['AT&T', 'Spectrum', 'Comcast']",0.21428571428571428571,0.17752009716037244809,0.92307692307692307692,0.92786923390146006631,0E-20,,70919
+2,opposite group,True,,26353,11,"['Merit Network', 'AT&T', 'Spectrum']",,,,,,,

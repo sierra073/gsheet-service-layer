@@ -1,0 +1,4 @@
+,group,meeting_2014_goal_no_oversub,num_students_newly_meeting,num_students_connected_top_3,num_districts_connected_top_3,top_3,pct_districts_connected_top_3_switched,pct_students_connected_top_3_switched,pct_districts_connected_top_3_expiring_contracts,pct_students_connected_top_3_expiring_contracts,pct_districts_connected_top_3_expiring_contracts_cy,pct_students_connected_top_3_expiring_contracts_cy,num_students_connected_top_10
+0,same group,False,,93556,7,"['Cox', 'Lightspeed Networks', 'Comcast']",0E-20,,0.42857142857142857143,0.34374064731283936893,0E-20,,93556
+1,same group,True,1561813,360830,8,"['Spectrum', 'AT&T', 'CRMSA']",0.25000000000000000000,0.19658287836377241360,0.75000000000000000000,0.39442396696505279494,0E-20,,383943
+2,opposite group,True,,13837,1,['Cox'],,,,,,,

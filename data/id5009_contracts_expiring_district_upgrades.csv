@@ -1,0 +1,5 @@
+,funding_year,total_districts,districts_upgraded,districts_upgraded_cost_only,total_districts_expired,total_districts_not_expired,districts_expired_upgraded,districts_not_expired_upgraded,districts_expired_not_upgraded,districts_not_expired_not_upgraded,perc_districts_upgraded,perc_exp_districts_upg,perc_not_exp_districts_upg
+0,2016,8503,3394,2422,4113,4390,2014,1380,2099,3010,39.9,49.0,31.4
+1,2017,9926,3188,2838,4257,5669,1613,1575,2644,4094,32.1,37.9,27.8
+2,2018,11126,3480,3764,5179,5947,2102,1378,3077,4569,31.3,40.6,23.2
+3,2019,11368,3070,3529,5164,6204,1969,1101,3195,5103,27.0,38.1,17.7

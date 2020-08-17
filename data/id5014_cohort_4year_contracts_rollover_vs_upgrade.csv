@@ -1,0 +1,5 @@
+,funding_year,districts,num_upgraded,num_expired,num_exp_rolled,num_exp_multiyr,num_first_time_upg,num_second_upg,num_third_upg,perc_expired,perc_rolled,perc_multi_year,perc_exp_upgraded,perc_exp_first_upg,perc_exp_second_upg,perc_exp_third_upg
+0,2016,1264,0,1264,1264,0,0,0,0,1.00,1.00,0.00,0.00,0.00,0.00,0.00
+1,2017,1264,553,1258,606,103,553,0,0,1.00,0.48,0.08,0.44,0.44,0.00,0.00
+2,2018,1264,491,979,525,43,335,156,0,0.77,0.54,0.04,0.42,0.30,0.12,0.00
+3,2019,1264,369,890,498,103,133,188,48,0.70,0.56,0.12,0.32,0.13,0.16,0.03

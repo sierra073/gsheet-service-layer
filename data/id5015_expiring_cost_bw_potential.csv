@@ -1,0 +1,3 @@
+,current_contract_length,districts_exp_same_bw_lower_cost,median_total_cost_diff,avg_total_cost_diff,median_percent_cost_decrease,avg_percent_cost_decrease,median_additional_bw_possible,avg_additional_bw_possible,median_bw_before,median_kbps_before,median_bw_after,median_kbps_after,additional_districts_meeting_1mb
+0,1 year,955,152.75,837.96,0.07,0.17,46.96,658.77,1000.0000000000000000,472.08,1001.86,598.14,71
+1,multi_year,546,991.92,2012.54,0.35,0.36,541.25,2702.35,1000.0000000000000000,533.83,1766.30,903.68,106

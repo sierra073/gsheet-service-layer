@@ -1,0 +1,72 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@1.0.9
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
+      - image: rocker/verse:3.3.3
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: apt-get update && apt-get install -y python python-dev python-pip virtualenv libssl-dev libpq-dev build-essential libmysqlclient-dev
+      - run: pip install virtualenv && python -m pip install --upgrade pip setuptools
+      - restore_cache:
+            key: deps1-{{ .Branch }}-{{ checksum "Projects/sots-isl/requirements.txt" }}
+      - run:
+          name: Install Python deps in a venv
+          command: |
+            python2.7 -m virtualenv venv
+            source venv/bin/activate
+            sudo pip install -r Projects/sots-isl/requirements.txt --quiet
+      - save_cache:
+          key: deps1-{{ .Branch }}-{{ checksum "Projects/sots-isl/requirements.txt" }}
+          paths:
+            - "venv"
+      - run:
+          name: configure matplotlib
+          command: |
+            sudo chmod a+w /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
+            echo 'backend: Agg' > /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
+      - aws-s3/copy:
+               from: 's3://esh-ficher-credentials/credentials.json'
+               to: 'Projects/sots-isl/credentials.json'
+      - aws-s3/copy:
+               from: 's3://esh-ficher-credentials/creds.json'
+               to: 'Projects/sots-isl/creds.json'
+      - aws-s3/copy:
+               from: 's3://esh-ficher-credentials/settings.yaml'
+               to: 'Projects/sots-isl/settings.yaml'
+      - aws-s3/copy:
+               from: 's3://esh-ficher-credentials/environment.properties'
+               to: 'environment.properties'
+      - run:
+          name: get changed files in current branch
+          command: |
+            BRANCH=$(git branch | grep \* | cut -d ' ' -f2)
+            git diff origin/master...${BRANCH} --name-only > Projects/sots-isl/changed_files.txt
+      - run:
+          name: test ISL
+          command: |
+            chmod +x environment.properties && source environment.properties
+            cp environment.properties ~/.env
+            cd Projects/sots-isl/src/2019
+            python isl_circle.py > "log/isl.log"
+      - store_artifacts:
+          path: Projects/sots-isl/src/2019/log/isl.log
+          destination: isl.log
+
+      - store_artifacts:
+          path: Projects/sots-isl/src/2019/log/

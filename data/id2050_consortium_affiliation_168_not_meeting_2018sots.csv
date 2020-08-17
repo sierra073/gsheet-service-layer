@@ -1,0 +1,65 @@
+,district_id,name,state_code,size,locale,num_students,consortium_affiliation_boolean,consortium_affiliation,state_procurement,state_org_structure
+0,882095,Park County School District R E 2,CO,Small,Rural,517,False,,District-procured,state network or state ISP
+1,882135,Yosemite Unified School District,CA,Small,Rural,1628,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+2,882337,Lamar School District R E 2,CO,Small,Town,1446,False,,District-procured,state network or state ISP
+3,882732,Nome City School District,AK,Small,Town,659,False,,District-procured,districts on their own
+4,882767,St Marys City School District,AK,Small,Rural,300,False,,District-procured,districts on their own
+5,882787,Unalaska City School District,AK,Small,Rural,387,False,,District-procured,districts on their own
+6,883197,Dehesa Elem School District,CA,Small,Suburban,3151,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+7,883253,Edison School District,CA,Small,Rural,1059,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+8,883297,Eureka Union Elem School District,CA,Medium,Suburban,3379,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+9,883301,Evergreen Union Elem School District,CA,Medium,Rural,1192,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+10,883409,Wickenburg Unified School District 9,AZ,Small,Rural,1436,True,Maricopa County Superintendent Office,District-procured,districts on their own
+11,883454,Hart-Ransom Un Elem School District,CA,Small,Rural,1189,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+12,883461,Heber Elementary School District,CA,Tiny,Suburban,1245,False,,Regional procurement,state network & regional aggregation
+13,883653,Mariposa Co Unified School District,CA,Medium,Rural,1704,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+14,883828,Ravendale-Termo Elementary School District,CA,Small,Rural,310,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+15,884074,Yreka Union School District,CA,Small,Town,959,True,CORPORATION FOR EDUCATION NETWORK INITIATIVES IN CALIFORNIA (CENIC),Regional procurement,state network & regional aggregation
+16,894438,Sergeant Bluff-Luton Community School District,IA,Small,Suburban,1597,False,,Special case,state network & regional aggregation
+17,900679,Streator School District 44,IL,Small,Town,1614,False,,District-procured,state network or state ISP
+18,900691,Meridian Community Un School District 15,IL,Small,Rural,991,False,,District-procured,state network or state ISP
+19,901000,Carlyle Community Unit School District 1,IL,Small,Town,1116,False,,District-procured,state network or state ISP
+20,901239,Highland Community Schools District 5,IL,Medium,Town,2861,False,,District-procured,state network or state ISP
+21,901277,Jersey Community Unit School District 100,IL,Small,Town,2571,False,,District-procured,state network or state ISP
+22,901317,Lansing School District 158,IL,Small,Suburban,2517,False,,District-procured,state network or state ISP
+23,901395,Marshall School District C2,IL,Small,Town,1335,False,,District-procured,state network or state ISP
+24,901605,Riley Cc School District 18,IL,Tiny,Rural,302,False,,District-procured,state network or state ISP
+25,901733,Tri-City C.U.S.D. No.1,IL,Small,Rural,583,False,,District-procured,state network or state ISP
+26,911002,Acton-Boxborough School District,MA,Medium,Suburban,5491,False,,District-procured,districts on their own
+27,911288,South Hadley School District,MA,Small,Suburban,1869,False,,District-procured,districts on their own
+28,911301,Burgess (Sturbridge) Elementary School,MA,Tiny,Suburban,917,True,Tantasqua Regional,District-procured,districts on their own
+29,911332,Webster School District,MA,Small,Suburban,1854,False,,District-procured,districts on their own
+30,915465,Talbot County Public School District,MD,Medium,Town,4593,False,,District-procured,state network or state ISP
+31,919494,Ashley Community School District,MI,Small,Rural,255,False,,Regional procurement,state network & regional aggregation
+32,919580,Central Montcalm Pub School District,MI,Small,Rural,1626,False,,Regional procurement,state network & regional aggregation
+33,919835,Menominee Area Public Schools,MI,Small,Town,1395,False,,Regional procurement,state network & regional aggregation
+34,919901,Ovid-Elsie Area Schools,MI,Small,Rural,1555,False,,Regional procurement,state network & regional aggregation
+35,919984,St Johns Public School District,MI,Medium,Town,2943,False,,Regional procurement,state network & regional aggregation
+36,922637,International Falls School District 361,MN,Small,Town,1112,False,,Regional procurement,regional aggregation (existing or planned)
+37,924114,Breckenridge R-I,MO,Small,Rural,67,False,,"State procures IA, District procures WAN",state network or state ISP
+38,924404,Mound City R 2,MO,Small,Rural,286,False,,"State procures IA, District procures WAN",state network or state ISP
+39,937484,Bartlett School District,NH,Tiny,Rural,181,False,,District-procured,districts on their own
+40,937517,Derry School District,NH,Medium,Suburban,3316,True,SAU 10,District-procured,districts on their own
+41,937581,Hinsdale School District,NH,Small,Rural,551,True,SAU 62,District-procured,districts on their own
+42,937605,Lyme School District,NH,Tiny,Rural,203,True,SAU 76,District-procured,districts on their own
+43,937613,Mascenic Regional School District,NH,Small,Rural,1063,True,SAU 56,District-procured,districts on their own
+44,937675,Tamworth School District,NH,Tiny,Rural,204,True,SAU 13,District-procured,districts on their own
+45,941186,East Greenwich Twp School District,NJ,Small,Suburban,1268,False,,District-procured,aggregated procurement/master contracts
+46,946221,Bay Shore Union Free School District,NY,Medium,Suburban,5992,False,,Regional procurement,regional aggregation (existing or planned)
+47,946386,Elwood Union Free School District,NY,Small,Suburban,2207,False,,Regional procurement,regional aggregation (existing or planned)
+48,946604,William Floyd School District,NY,Medium,Suburban,8619,False,,Regional procurement,regional aggregation (existing or planned)
+49,946640,Mount Vernon Public Schools,NY,Large,Suburban,8131,True,Southern Westchester BOCES,Regional procurement,regional aggregation (existing or planned)
+50,950106,Cardington-Lincoln Local Dist,OH,Small,Rural,1057,False,,Regional procurement,state network or state ISP
+51,950216,Perry Local School District,OH,Medium,Suburban,4834,False,,Regional procurement,state network or state ISP
+52,952215,Fern Ridge School District 28 J,OR,Small,Rural,1407,True,Lane ESD,Regional procurement,regional aggregation (existing or planned)
+53,952308,Redmond School District 2 J,OR,Medium,Town,6052,True,High Desert ESD,Regional procurement,regional aggregation (existing or planned)
+54,953649,Bethlehem Center School District,PA,Small,Rural,1194,False,,Regional procurement,regional aggregation (existing or planned)
+55,953746,Derry Area School District,PA,Small,Suburban,1983,True,EASTERN CONSORTIUM | PAIU NET | WESTMORELAND INTERMEDIATE UNIT,Regional procurement,regional aggregation (existing or planned)
+56,953909,Mercer Area School District,PA,Small,Town,1118,False,,Regional procurement,regional aggregation (existing or planned)
+57,954136,Tamaqua Area School District,PA,Small,Rural,2138,False,,Regional procurement,regional aggregation (existing or planned)
+58,969047,Benjamin Independent School District,TX,Tiny,Rural,100,False,,Regional procurement,regional aggregation (existing or planned)
+59,969066,Boling Independent School District,TX,Small,Rural,1129,False,,Regional procurement,regional aggregation (existing or planned)
+60,969351,Floydada Independent School District,TX,Small,Rural,791,True,ESC - Region 17,Regional procurement,regional aggregation (existing or planned)
+61,969908,Ralls Independent School District,TX,Small,Rural,542,True,ESC - Region 17,Regional procurement,regional aggregation (existing or planned)
+62,970192,Westhoff Independent School District,TX,Tiny,Rural,69,False,,Regional procurement,regional aggregation (existing or planned)
+63,1089716,Worthington School District,MA,Tiny,Rural,60,False,,District-procured,districts on their own

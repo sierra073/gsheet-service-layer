@@ -1,0 +1,9 @@
+metric,indicator,number,percent
+districts decreased cost/mbps?,True,6672,0.567974802077126
+districts decreased cost/mbps?,False,5075,0.4320251979228739
+decreased cost: upgraded to fiber,True,212,0.03177458033573141
+decreased cost: upgraded to fiber,False,6460,0.9682254196642686
+decreased cost: switched SP,True,1107,0.17823216873289324
+decreased cost: switched SP,False,5104,0.8217678312671067
+decreased cost: got new contract,True,4072,0.6103117505995204
+decreased cost: got new contract,False,2600,0.38968824940047964

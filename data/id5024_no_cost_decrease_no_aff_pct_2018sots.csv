@@ -1,0 +1,4 @@
+,metric,num
+0,1) # districts that havent seen a cost decrease and still not meeting benchmark prices (extrap),1330.75423512386141143290
+1,2) % districts that havent seen a cost decrease that still arent meeting benchmark prices,0.23822660098522167488
+2,3) % districts that havent seen a cost decrease that still arent meeting benchmark prices overall,0.10291989444113390653
