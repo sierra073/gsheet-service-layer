@@ -132,5 +132,5 @@ df_results.loc[:, 'pcent_districts_2x_clean'] = df_results['num_districts_2x_151
 df_results = df_results[df_results.state_code != 'DC']
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv('id1007_num_states_pcent_districts_upgrade_3x_2018sots.csv', index=False)

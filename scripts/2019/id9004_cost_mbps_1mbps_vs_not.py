@@ -13,7 +13,7 @@ GITHUB = os.environ.get("GITHUB")
 myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, database=DB, port=5432)
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id9004_cost_mbps_1mbps_vs_not.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -53,5 +53,5 @@ for p in ax.patches:
             horizontalalignment='center',
             verticalalignment='center')
 
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id9004_cost_mbps_1mbps_vs_not.png')

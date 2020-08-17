@@ -12,7 +12,7 @@ GITHUB = os.environ.get("GITHUB")
 myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, database=DB, port=5432)
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id9008_2018_paymore_funnel.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -41,5 +41,5 @@ data = data[data.status_2019 != "Total"].sort_values('nd').reset_index(drop=True
 vals_to_plot = ((data['nd'].iloc[[1, 0, 2]]/total[0])*extrap).astype('int').reset_index(drop=True)
 
 # save csv - NEEDED FOR ISL
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 vals_to_plot.to_csv("id9008_2018_paymore_funnel.csv", index=False)

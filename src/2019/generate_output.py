@@ -77,7 +77,7 @@ def generate_output(insight, input_id, scriptname, type_of_output, output, rownu
 
 def get_latest_from_db(input_id, file, HOST, USER, PASSWORD, DB):
 
-    os.chdir(GITHUB + '/Projects/sots-isl/src/history_sql/')
+    os.chdir(GITHUB + '/''src/history_sql/')
     queryfile = open(file, 'r')
     query = queryfile.read()
     queryfile.close()

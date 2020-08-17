@@ -49,13 +49,13 @@ querydb <- function(query_name){
   return(data)
 }
 
-clean <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/2019/prework_queries/id2038_clean_line_items_2018sots.sql", sep=""))
+clean <- querydb(paste(GITHUB, "/''scripts/2019/prework_queries/id2038_clean_line_items_2018sots.sql", sep=""))
 
 
 ## disconnect from database
 dbDisconnect(con)
 
-predictions <- read.csv(paste(GITHUB,"/Projects/sots-isl/data/ml_mass_update_05-14-2018.csv", sep = ""), stringsAsFactors = FALSE)
+predictions <- read.csv(paste(GITHUB,"/''data/ml_mass_update_05-14-2018.csv", sep = ""), stringsAsFactors = FALSE)
 
 
 clean_predictions <- merge(x = clean, y = predictions, by = "frn_complete", all.x = TRUE, all.y = FALSE)
@@ -70,6 +70,6 @@ final_df <- ddply(clean_predictions,"automated_correction",summarize,
 )
 
 
-write.csv(final_df, paste(GITHUB,"/Projects/sots-isl/data/id2038_machine_learning_line_items_2018sots.csv", sep = ""), row.names = FALSE)
+write.csv(final_df, paste(GITHUB,"/''data/id2038_machine_learning_line_items_2018sots.csv", sep = ""), row.names = FALSE)
 
 

@@ -98,5 +98,5 @@ df_summary = pd.DataFrame({'state_code': state,
                           index=[0])
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_summary.to_csv('id1035_schools_in_AR_meeting1m_2018sots.csv', index=False)

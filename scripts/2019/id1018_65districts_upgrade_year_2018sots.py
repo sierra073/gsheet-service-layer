@@ -69,7 +69,7 @@ df_filtered_ia = df[(df.in_universe==True) &
                  (df.fit_for_ia==True)]
 
 # load 65 districts from justine's list
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 df_65 = pd.read_csv("SAT shares with Evan 8.20 - 65 districts make up 2M.csv")
 
 # find year district upgraded
@@ -88,7 +88,7 @@ for i, d_id in enumerate(df_65['district id'].values):
         df_results.loc[i, 'year_latest_upgrade'] = 'No upgrade'
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv('id1018_65districts_upgrade_year_2018sots.csv', index=False)
 
 

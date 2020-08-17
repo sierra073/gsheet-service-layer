@@ -24,15 +24,15 @@ jobs:
       - run: apt-get update && apt-get install -y python python-dev python-pip virtualenv libssl-dev libpq-dev build-essential libmysqlclient-dev
       - run: pip install virtualenv && python -m pip install --upgrade pip setuptools
       - restore_cache:
-            key: deps1-{{ .Branch }}-{{ checksum "Projects/sots-isl/requirements.txt" }}
+            key: deps1-{{ .Branch }}-{{ checksum "''requirements.txt" }}
       - run:
           name: Install Python deps in a venv
           command: |
             python2.7 -m virtualenv venv
             source venv/bin/activate
-            sudo pip install -r Projects/sots-isl/requirements.txt --quiet
+            sudo pip install -r ''requirements.txt --quiet
       - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "Projects/sots-isl/requirements.txt" }}
+          key: deps1-{{ .Branch }}-{{ checksum "''requirements.txt" }}
           paths:
             - "venv"
       - run:
@@ -42,13 +42,13 @@ jobs:
             echo 'backend: Agg' > /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
       - aws-s3/copy:
                from: 's3://esh-ficher-credentials/credentials.json'
-               to: 'Projects/sots-isl/credentials.json'
+               to: '''credentials.json'
       - aws-s3/copy:
                from: 's3://esh-ficher-credentials/creds.json'
-               to: 'Projects/sots-isl/creds.json'
+               to: '''creds.json'
       - aws-s3/copy:
                from: 's3://esh-ficher-credentials/settings.yaml'
-               to: 'Projects/sots-isl/settings.yaml'
+               to: '''settings.yaml'
       - aws-s3/copy:
                from: 's3://esh-ficher-credentials/environment.properties'
                to: 'environment.properties'
@@ -56,17 +56,17 @@ jobs:
           name: get changed files in current branch
           command: |
             BRANCH=$(git branch | grep \* | cut -d ' ' -f2)
-            git diff origin/master...${BRANCH} --name-only > Projects/sots-isl/changed_files.txt
+            git diff origin/master...${BRANCH} --name-only > ''changed_files.txt
       - run:
           name: test ISL
           command: |
             chmod +x environment.properties && source environment.properties
             cp environment.properties ~/.env
-            cd Projects/sots-isl/src/2019
+            cd ''src/2019
             python isl_circle.py > "log/isl.log"
       - store_artifacts:
-          path: Projects/sots-isl/src/2019/log/isl.log
+          path: ''src/2019/log/isl.log
           destination: isl.log
 
       - store_artifacts:
-          path: Projects/sots-isl/src/2019/log/
+          path: ''src/2019/log/

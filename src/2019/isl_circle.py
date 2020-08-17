@@ -54,7 +54,7 @@ DB_DAR = os.environ.get("DB_DAR")
 
 # get relevant ids from current branch
 ids = []
-for line in open(GITHUB + '/Projects/sots-isl/changed_files.txt', 'r'):
+for line in open(GITHUB + '/''changed_files.txt', 'r'):
     if re.search(r'id\d', line) is not None:
         ids.append(line.rstrip())
 try:
@@ -140,10 +140,10 @@ for rec in mm_dict:
 
                 if type_of_output == 'table':
                     try:
-                        os.remove(GITHUB + '/Projects/sots-isl/data/' + scriptname + '.csv')
+                        os.remove(GITHUB + '/''data/' + scriptname + '.csv')
                     except OSError:
                         pass
-                    output_df.to_csv(GITHUB + '/Projects/sots-isl/data/' + scriptname + '.csv')
+                    output_df.to_csv(GITHUB + '/''data/' + scriptname + '.csv')
 
                 generate_output(insight, input_id, scriptname, type_of_output, output_df, rownum)
             except Exception as e:

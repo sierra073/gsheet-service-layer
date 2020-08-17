@@ -49,9 +49,9 @@ querydb <- function(query_name){
   return(data)
 }
 
-knapsack <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
-districts <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/2019/prework_queries/id2030_who_needs_to_spend_more_2018sots.sql", sep=""))
-population <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/2019/prework_queries/id2035_districts_not_meeting_extrap_2018sots.sql", sep=""))
+knapsack <- querydb(paste(GITHUB, "/''scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
+districts <- querydb(paste(GITHUB, "/''scripts/2019/prework_queries/id2030_who_needs_to_spend_more_2018sots.sql", sep=""))
+population <- querydb(paste(GITHUB, "/''scripts/2019/prework_queries/id2035_districts_not_meeting_extrap_2018sots.sql", sep=""))
 
 
 ## disconnect from database
@@ -59,7 +59,7 @@ dbDisconnect(con)
 
 
 ## load in knapsack budget function
-source(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
+source(paste(GITHUB, "''scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
 
 
 ## calculate knapsack to QA methodology  
@@ -135,4 +135,4 @@ final_df$extrap_extra_erate_funding <- final_df$extra_erate_funding_student*fina
 
 
 
-write.csv(final_df, paste(GITHUB,"/Projects/sots-isl/data/id2035_regroup_meet1mbps.csv", sep = ""), row.names = FALSE)
+write.csv(final_df, paste(GITHUB,"/''data/id2035_regroup_meet1mbps.csv", sep = ""), row.names = FALSE)

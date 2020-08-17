@@ -10,8 +10,8 @@ sys.path.insert(0, GITHUB + '/Projects/funding_the_gap/src/features')
 
 from classes import cost_magnifier
 
-campus_build_costs = read_csv(GITHUB + '/Projects/sots-isl/data/campus_build_costs_before_distribution.csv', index_col=0)
-state_cost_per_mile = read_csv(GITHUB + '/Projects/sots-isl/data/state_cost_per_mile.csv', index_col=0)
+campus_build_costs = read_csv(GITHUB + '/''data/campus_build_costs_before_distribution.csv', index_col=0)
+state_cost_per_mile = read_csv(GITHUB + '/''data/state_cost_per_mile.csv', index_col=0)
 
 # SOTS 2019: State match/no state match states
 full_match_states = ['AZ', 'IL', 'MO', 'WA']
@@ -110,4 +110,4 @@ campus_build_costs['az_min'] = where(campus_build_costs['total_cost_az_wan'] <= 
 # filter for positive costs
 campus_build_costs = campus_build_costs[campus_build_costs.total_cost_median_wan >= 0]
 
-campus_build_costs.to_csv(GITHUB + '/Projects/sots-isl/data/id5136_ftg_cost_distributor_wan_2018sots.csv')
+campus_build_costs.to_csv(GITHUB + '/''data/id5136_ftg_cost_distributor_wan_2018sots.csv')

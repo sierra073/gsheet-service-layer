@@ -38,8 +38,8 @@ querydb <- function(query_name){
   return(data)
 }
 
-data <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/id5023_no_cost_decrease_pct_2018sots.sql", sep=""))
-data2 <- querydb(paste(GITHUB, "/Projects/sots-isl/scripts/id5024_no_cost_decrease_no_aff_pct_2018sots.sql", sep=""))
+data <- querydb(paste(GITHUB, "/''scripts/id5023_no_cost_decrease_pct_2018sots.sql", sep=""))
+data2 <- querydb(paste(GITHUB, "/''scripts/id5024_no_cost_decrease_no_aff_pct_2018sots.sql", sep=""))
 
 ## disconnect from database
 dbDisconnect(con)

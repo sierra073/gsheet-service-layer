@@ -26,7 +26,7 @@ GITHUB = os.environ.get("GITHUB")
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries') 
+    os.chdir(GITHUB+'/''scripts/2019/prework_queries') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -104,7 +104,7 @@ frame1.axes.get_yaxis().set_ticks([])
 plt.ylabel('median bandwidth per student', color="#A1A1A1", fontproperties=prop,size=14)
 
 #image
-# arr_hand = read_png(GITHUB+'/Projects/sots-isl/figure_images/callout_lt_org.png')
+# arr_hand = read_png(GITHUB+'/''figure_images/callout_lt_org.png')
 # imagebox = OffsetImage(arr_hand, zoom=.5)
 # iter = list(range(bandwidth_over_time.funding_year.min(),bandwidth_over_time.funding_year.max()+1))
 # iter.remove(2014)
@@ -118,4 +118,4 @@ plt.ylabel('median bandwidth per student', color="#A1A1A1", fontproperties=prop,
 #     ax.add_artist(ab)
 
 #plt.show()
-fig.savefig(GITHUB+'/Projects/sots-isl/figure_images/id6033_median_bandwidth_per_student_over_time_2018sots.png')
+fig.savefig(GITHUB+'/''figure_images/id6033_median_bandwidth_per_student_over_time_2018sots.png')

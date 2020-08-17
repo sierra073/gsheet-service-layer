@@ -86,5 +86,5 @@ s1 = df_meeting100k.groupby('funding_year')['ia_bandwidth_per_student_kbps'].med
 df_results = s1.to_frame().reset_index()
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv('id1029_median_bw_per_student_kbps_meeting100k_2018sots.csv', index=False)

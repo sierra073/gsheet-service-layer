@@ -196,7 +196,7 @@ df_result = df_result[['district_id', 'funding_year', 'name', 'state_code', 'fit
 df_result.sort_values(['state_code', 'name'], inplace=True)
 
 # save as csv
-# os.chdir(GITHUB + '/Projects/sots-isl/data/')
+# os.chdir(GITHUB + '/''data/')
 # df_result.to_csv('id6012_state_network_cost_upstream_isp_detailed_list.csv', index=False)
 
 
@@ -335,7 +335,7 @@ for col in cols_to_pp:
 
 
 # # save aggregation to csv for qa
-# os.chdir(GITHUB + '/Projects/sots-isl/data/')
+# os.chdir(GITHUB + '/''data/')
 # df_agg.to_csv("id6015_state_network_cost_upstream_isp_aggregate_by_state.csv", index=False)
 
 
@@ -426,5 +426,5 @@ plt.text(0.6*max(df_input[compare_col]), 6.2, str(total_schools_newly_meeting_pp
 
 
 # save figure
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6011_state_network_cost_upstream_isp_figure.png", bbox_inches='tight')

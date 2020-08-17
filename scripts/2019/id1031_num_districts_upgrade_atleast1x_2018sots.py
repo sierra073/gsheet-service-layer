@@ -112,5 +112,5 @@ df_result = pd.DataFrame({'num_districts_4years_clean': num_total_districts,
 'pcent_districts_upgrade_atleast1x': pcent_upgrade_atleast1x}, index=[0])
 
 # save to csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_result.to_csv('id1031_num_districts_upgrade_atleast1x_2018sots.csv', index=False)

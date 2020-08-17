@@ -31,12 +31,12 @@ GITHUB = os.environ.get("GITHUB")
 # have to ensure that your path variables don't end with "/"
 if GITHUB.endswith("/"):
     try:
-        sys.path.insert(0, GITHUB + 'Projects/sots-isl/scripts/2019')
+        sys.path.insert(0, GITHUB + '''scripts/2019')
     except OSError as ose:
         print "The file can't be found. Check that the .env file is in the location the script is searching. The script looks in the location returned by the Python command: 'find_dotenv().' If the location searched is correct, then check the .env file to ensure the PATH variable, GITHUB, is correctly defined."
 else:
     try:
-        os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019')
+        os.chdir(GITHUB + '/''scripts/2019')
     except OSError as ose:
         print "The file can't be found. Check that the .env file is in the location the script is searching. The script looks in the location returned by the Python command: 'find_dotenv().' If the location searched is correct, then check the .env file to ensure the PATH variable, GITHUB, is correctly defined."
 
@@ -131,10 +131,10 @@ for rec in mm_dict:
 
                 if type_of_output == 'table':
                     try:
-                        os.remove(GITHUB + '/Projects/sots-isl/data/' + scriptname + '.csv')
+                        os.remove(GITHUB + '/''data/' + scriptname + '.csv')
                     except OSError:
                         pass
-                    output_df.to_csv(GITHUB + '/Projects/sots-isl/data/' + scriptname + '.csv')
+                    output_df.to_csv(GITHUB + '/''data/' + scriptname + '.csv')
 
                 generate_output(insight, input_id, scriptname, type_of_output, output_df, rownum)
             except Exception as e:

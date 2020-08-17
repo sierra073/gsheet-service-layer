@@ -211,7 +211,7 @@ plt.text(28, df_pct_change_desc_ind_plot.district_count.sum()-df_pct_change_desc
 plt.text(28, df_pct_change_desc_ind_plot.district_count.sum()-df_pct_change_desc_ind_plot.district_count.sum()*.15, "Mean: "+str(round(df_first_positive_only.pct_bw_change_2015_to_2019.mean(), 1)), ha='center', va='bottom');
 
 # save to isl folder figure_images
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6003_hist_bw_inc_pct_4x_cumulative.png", bbox_inches = 'tight')
 
 

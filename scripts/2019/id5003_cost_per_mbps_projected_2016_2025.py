@@ -10,7 +10,7 @@ import sys
 
 load_dotenv(find_dotenv())
 GITHUB = os.environ.get("GITHUB")
-sys.path.insert(0, GITHUB + "/Projects/sots-isl/scripts/2019/prework_queries")
+sys.path.insert(0, GITHUB + "/''scripts/2019/prework_queries")
 from id5002_cost_projection_wide import *
 
 HOST_DAR = os.environ.get("HOST_DAR")
@@ -21,12 +21,12 @@ conn = psy.connect(host=HOST_DAR, user=USER_DAR, password=PASSWORD_DAR, database
 
 
 def main():
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     circ_costs = get_data('id5001_median_circuit_costs.sql')
 
     combined = generate_cost_projections_wide(circ_costs)
 
-    combined.to_csv(GITHUB+'Projects/sots-isl/data/temp_curve.csv', index=False)
+    combined.to_csv(GITHUB+'''data/temp_curve.csv', index=False)
 
     condition = (combined.state == 'national') & (combined.circuit_size == '$_mbps')
     y = combined.loc[condition,
@@ -60,7 +60,7 @@ def main():
     for i, p in enumerate(zip(np.arange(2017, 2026), y[1:], percs)):
         plt.text(p[0], p[1]+.1, str(round(p[2]*100))+'%', color='black', fontweight='bold')
 
-    os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+    os.chdir(GITHUB + '/''figure_images')
     plt.savefig('id5003_cost_per_mbps_projected_2016_2025.png')
 
 

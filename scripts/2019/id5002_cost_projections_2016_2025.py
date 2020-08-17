@@ -10,7 +10,7 @@ import sys
 
 load_dotenv(find_dotenv())
 GITHUB = os.environ.get("GITHUB")
-sys.path.insert(0, GITHUB + "/Projects/sots-isl/scripts/2019/prework_queries")
+sys.path.insert(0, GITHUB + "/''scripts/2019/prework_queries")
 from id5002_cost_projection_wide import *
 
 HOST_DAR = os.environ.get("HOST_DAR")
@@ -21,7 +21,7 @@ conn = psy.connect(host=HOST_DAR, user=USER_DAR, password=PASSWORD_DAR, database
 
 
 def main():
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     circ_costs = get_data('id5001_median_circuit_costs.sql')
 
     combined = generate_cost_projections_wide(circ_costs)
@@ -34,7 +34,7 @@ def main():
                 'avg_decr',
                 'mrc',
                 'perc_decr_yoy',
-                'perc_decr']].to_csv(GITHUB+'Projects/sots-isl/data/id5002_cost_projections_2016_2025.csv', index=False)
+                'perc_decr']].to_csv(GITHUB+'''data/id5002_cost_projections_2016_2025.csv', index=False)
 
 
 if __name__ == '__main__':

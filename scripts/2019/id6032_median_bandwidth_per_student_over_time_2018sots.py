@@ -25,7 +25,7 @@ GITHUB = os.environ.get("GITHUB")
 
 def getData(conn, filename):
     # source of sql files
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     # query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -116,4 +116,4 @@ plt.ylabel('median bandwidth per student\n by goal meeting status', color="#A1A1
 plt.title("The median bandwidth/student continues \nto grow for districts without constraints.", fontproperties=prop,size=18)
 
 # plt.show()
-fig.savefig(GITHUB + '/Projects/sots-isl/figure_images/id6032_median_bandwidth_per_student_over_time_2018sots.png')
+fig.savefig(GITHUB + '/''figure_images/id6032_median_bandwidth_per_student_over_time_2018sots.png')

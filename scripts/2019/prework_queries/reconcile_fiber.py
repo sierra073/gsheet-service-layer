@@ -253,7 +253,7 @@ plt.title("Differences in Fiber: Current vs. Previous Database - 081419",  fonts
 plt.legend(loc='upper left');
 
 # save to isl folder figure_images
-# os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+# os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6008_fiber_unscalable_changes.png", bbox_inches = 'tight')
 
 # Uncomment below to for .csv files of detailed lists

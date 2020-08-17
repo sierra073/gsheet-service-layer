@@ -26,7 +26,7 @@ GITHUB = os.environ.get("GITHUB")
 
 def getData(conn, filename):
     # source of sql files
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     # query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -83,4 +83,4 @@ ax.xaxis.set_major_formatter(mtick.StrMethodFormatter('${x:0.2f}'))
 plt.subplots_adjust(left=.21)
 
 # plt.show()
-fig.savefig(GITHUB + '/Projects/sots-isl/figure_images/id6024_cost_per_student_by_affordable_ia_2018sots.png')
+fig.savefig(GITHUB + '/''figure_images/id6024_cost_per_student_by_affordable_ia_2018sots.png')

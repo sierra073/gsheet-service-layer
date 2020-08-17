@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER,
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id1018_students_meeting_1mbps_frozen.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -84,4 +84,4 @@ ax.tick_params(axis='x', colors='#010101')
 frame1.axes.get_yaxis().set_ticks([])
 plt.ylabel('# of students meeting 1mbps in millions', color="#010101", fontproperties=prop,size=14)
 
-fig.savefig(GITHUB+'/Projects/sots-isl/figure_images/id1018_students_meeting_1mbps_frozen.png')
+fig.savefig(GITHUB+'/''figure_images/id1018_students_meeting_1mbps_frozen.png')

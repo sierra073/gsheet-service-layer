@@ -14,7 +14,7 @@ import pandas as pd
 GITHUB = os.environ.get("GITHUB")
 
 # number of students meeting 100 kbps goal in 2013
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 df_2013 = pd.read_excel('2013_districts_2018sots.xlsx')
 
 # number of districts meeting 100 kpbs in 2013

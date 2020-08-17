@@ -94,5 +94,5 @@ df_results.columns = ['funding_year', 'num_districts_meeting1m_lm', 'num_distric
 df_results.loc[:, 'pcent_lrg_meeting'] = df_results['num_districts_meeting1m_lm'] / df_results['num_districts_lm']
 
 # save to_csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv("id1013_num_large_mega_meeting1m_2018sots.csv", index=False)

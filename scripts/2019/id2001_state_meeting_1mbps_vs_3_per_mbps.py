@@ -16,7 +16,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id2001_state_meeting_1mbps_and_afford_percents.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -45,5 +45,5 @@ ax.axhline(y=50,linewidth=2,alpha=0.3,c='k',linestyle='dotted')
 
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 fig.savefig('id2001_state_meeting_1mbps_vs_3_per_mbps.png')

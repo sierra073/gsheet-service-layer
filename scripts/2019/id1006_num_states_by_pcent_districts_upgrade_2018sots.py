@@ -107,5 +107,5 @@ df_result_num_by_pcent_upgrade = pd.DataFrame({'pcent_threshold': np.arange(0, 1
 
 
 # save result to csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_result_num_by_pcent_upgrade.to_csv('id1006_num_states_by_pcent_districts_upgrade_2018sots.csv', index=False)

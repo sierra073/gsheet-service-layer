@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER,
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id101415_num_students_meeting_1mbps.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -68,4 +68,4 @@ def autolabel(rects):
 
 autolabel(rects)
 
-plt.savefig(GITHUB+'/Projects/sots-isl/figure_images/id1015_number_students_meeting_1mbps_yoy_bar.png')
+plt.savefig(GITHUB+'/''figure_images/id1015_number_students_meeting_1mbps_yoy_bar.png')

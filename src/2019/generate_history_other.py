@@ -95,7 +95,7 @@ def upload_files(drive, folder_id, filename, type_of_output):
         outpath = 'figure_images/'
 
     # Enter the source folder
-    os.chdir(GITHUB + '/Projects/sots-isl/' + outpath)
+    os.chdir(GITHUB + '/''' + outpath)
     # make sure all files are executable
     os.system("chmod +x *")
 

@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id1016_median_bw_per_student_all_and_not_meeting.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -111,4 +111,4 @@ plt.ylabel('median bandwidth per student (kbps)', color="#A1A1A1", fontpropertie
 #title
 plt.title("The median bandwidth/student continues \nto grow at a steady pace", fontproperties=prop,size=16)
 
-plt.savefig(GITHUB+'/Projects/sots-isl/figure_images/id1016_median_bw_per_student_all_and_not_meeting.png')
+plt.savefig(GITHUB+'/''figure_images/id1016_median_bw_per_student_all_and_not_meeting.png')

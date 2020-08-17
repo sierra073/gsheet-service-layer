@@ -245,5 +245,5 @@ ax4.legend();
 plt.suptitle("Histogram of Bandwidth Per Student for Cohort 2015, 2017, 2018, 2019");
 
 # saving figure
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id1021_histograms_bw_per_student_cohort_2018sots.png', bbox_inches = 'tight');

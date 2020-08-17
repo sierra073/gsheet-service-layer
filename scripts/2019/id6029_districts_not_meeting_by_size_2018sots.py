@@ -25,7 +25,7 @@ GITHUB = os.environ.get("GITHUB")
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries') 
+    os.chdir(GITHUB+'/''scripts/2019/prework_queries') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -76,5 +76,5 @@ ax.text(not_meeting[not_meeting['num_students']>9000].num_students.count()-1, 70
 ax.text(not_meeting[not_meeting['num_students']>9000].num_students.count()-1, 65000, 'only '+str(not_meeting[not_meeting['num_students']>9000].num_students.count())+' districts', color="black", ha='right', va='top', fontsize=10)
 
 #plt.show()
-fig.savefig(GITHUB+'/Projects/sots-isl/figure_images/id6029_districts_not_meeting_by_size_2018sots.png')
+fig.savefig(GITHUB+'/''figure_images/id6029_districts_not_meeting_by_size_2018sots.png')
 

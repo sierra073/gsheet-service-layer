@@ -17,7 +17,7 @@ def run_sql(filepath, HOST, USER, PASSWORD, DB):
         * **filepath**: input the path of the sql file as a string, e.g. *'src/sql/get_raw_data.sql'*
         * **HOST,USER,PASSWORD,DB**: strings of your Postgres database credentials
     """
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019')
+    os.chdir(GITHUB + '/''scripts/2019')
     try:
         queryfile = open(filepath, 'r')
     except IOError:
@@ -69,7 +69,7 @@ def run_script(filepath, software, format):
     """
 
     # checking if file exists
-    scriptpath = GITHUB + '/Projects/sots-isl/scripts/2019/' + filepath
+    scriptpath = GITHUB + '/''scripts/2019/' + filepath
     try:
         file = open(scriptpath, 'r')
     except IOError:
@@ -98,12 +98,12 @@ def run_script(filepath, software, format):
     # remove csvs and pngs from prior runs (tables and figures)
     if format == 'table':
         try:
-            os.remove(GITHUB + '/Projects/sots-isl/data/' + filepath.split('.')[0] + '.csv')
+            os.remove(GITHUB + '/''data/' + filepath.split('.')[0] + '.csv')
         except OSError:
             pass
     if format == 'figure':
         try:
-            os.remove(GITHUB + '/Projects/sots-isl/figure_images/' + filepath.split('.')[0] + '.png')
+            os.remove(GITHUB + '/''figure_images/' + filepath.split('.')[0] + '.png')
         except OSError:
             pass
 
@@ -139,7 +139,7 @@ def run_script(filepath, software, format):
 
         a.communicate()
         try:
-            df = pd.read_csv(GITHUB + '/Projects/sots-isl/data/' + filepath.split('.')[0] + '.csv')
+            df = pd.read_csv(GITHUB + '/''data/' + filepath.split('.')[0] + '.csv')
         except OSError:
             print("  Table csv not found, please check script or input_filepath")
             return

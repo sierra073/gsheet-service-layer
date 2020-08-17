@@ -341,7 +341,7 @@ df_agg[df_agg.state_code.isin(['CT', 'ME'])]['num_students_newly_meeting_extrap'
 
 
 # save aggregation to csv for qa
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 df_agg.to_csv("id6015_state_network_cost_upstream_isp_aggregate_by_state.csv", index=False)
 
 

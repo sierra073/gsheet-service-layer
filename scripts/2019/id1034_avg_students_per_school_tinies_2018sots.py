@@ -127,5 +127,5 @@ df_results_tinies.columns = ['funding_year', 'num_schools_meeting1m_tiny',
 df_results_tinies.loc[:, 'avg_students_per_school'] = df_results_tinies['num_students_meeting1m_tiny']/df_results_tinies['num_schools_meeting1m_tiny']
 
 # save as a table
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results_tinies.to_csv("id1034_avg_students_per_school_tinies_2018sots.csv", index=False)

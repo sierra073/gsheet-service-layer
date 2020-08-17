@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5114_oop_cost_per_student_1mbps_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -99,5 +99,5 @@ plt.text(-.93, y[1], 'Current Spend: $' + str(int(math.ceil(y[1]))), color='#f26
 plt.text(-.88, ymax - .2, '$3-4 more', color='#c44f27', alpha=.85, fontproperties=font)
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5114_oop_cost_per_student_1mbps_2018sots.png')

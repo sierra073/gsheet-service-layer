@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5107_oop_cost_per_student_frl_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -77,5 +77,5 @@ for p in ax.patches:
     ax.annotate('$' + str(round(p.get_height(), 2)), (p.get_x() + p.get_width() / 2., p.get_height()), ha='center', va='center', xytext=(0, 10), textcoords='offset points')
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5107_oop_cost_per_student_frl_2018sots.png')

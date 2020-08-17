@@ -196,7 +196,7 @@ df_result = df_result[['district_id', 'funding_year', 'name', 'state_code', 'fit
 df_result.sort_values(['state_code', 'name'], inplace=True)
 
 # save as csv
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 df_result.to_csv('id6012_state_network_cost_upstream_isp_detailed_list.csv', index=False)
 
 
@@ -337,7 +337,7 @@ df_result.to_csv('id6012_state_network_cost_upstream_isp_detailed_list.csv', ind
 #
 #
 # # save aggregation to csv for qa
-# os.chdir(GITHUB + '/Projects/sots-isl/data/')
+# os.chdir(GITHUB + '/''data/')
 # df_agg.to_csv("id6015_state_network_cost_upstream_isp_aggregate_by_state.csv", index=False)
 
 

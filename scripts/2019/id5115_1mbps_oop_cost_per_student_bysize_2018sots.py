@@ -16,7 +16,7 @@ PASSWORD = os.environ.get("PASSWORD_DAR")
 DB = os.environ.get("DB_DAR")
 GITHUB = os.environ.get("GITHUB")
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('ia_annual_cost_per_student_1mbps_districts_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -75,5 +75,5 @@ data_final = pd.concat([data_final, temp], ignore_index=True)
 data_final = data_final[['size', 'median_ia_annual_cost_per_student', 'wtavg_ia_annual_cost_per_student']]
 
 # save to_csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 data_final.to_csv("id5115_1mbps_oop_cost_per_student_bysize_2018sots.csv", index=False)

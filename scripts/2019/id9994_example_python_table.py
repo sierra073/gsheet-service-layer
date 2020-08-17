@@ -68,5 +68,5 @@ df_filtered_ia = df[(df.in_universe == True) & (df.district_type == 'Traditional
 # cut out the rest of the analysis, this is an example
 
 # save csv - NEEDED FOR ISL
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_filtered_ia.to_csv("id9994_example_python_table.csv", index=False)

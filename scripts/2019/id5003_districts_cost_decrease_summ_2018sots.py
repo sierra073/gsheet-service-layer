@@ -14,7 +14,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5003_districts_cost_decrease_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -79,5 +79,5 @@ for values_array in [num_districts, switchers, new_contract, added_fiber]:
 
 final_summ = final_summ.sort_values(['metric', 'indicator'], ascending=[False, False])
 
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 final_summ.to_csv('id5003_districts_cost_decrease_summ_2018sots.csv', index=False)

@@ -355,6 +355,6 @@ plt.text(1.5, .92*int((max(df_final_v3.state_network_mrc))), "that are already s
 plt.text(2, .88*int((max(df_final_v3.state_network_mrc))), str(df_final_v3.already_spending_no_oversub.sum()) + " out of " + str(df_final_v3.shape[0]), fontsize=14)
 
 # save to isl folder figure_images
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6005_state_networks_projections_1G_10G_flat_pricing.png", bbox_inches = 'tight')
 plt.show()

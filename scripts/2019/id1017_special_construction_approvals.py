@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER,
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id1017_special_construction_approvals.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -82,4 +82,4 @@ plt.ylabel('Requests for Special Construction', color="#A1A1A1",
 plt.title("More special construction \nprojects are being funded",
           fontproperties=prop, size=14)
 
-plt.savefig(GITHUB+'/Projects/sots-isl/figure_images/id1017_special_construction_approvals.png')
+plt.savefig(GITHUB+'/''figure_images/id1017_special_construction_approvals.png')

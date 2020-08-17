@@ -4,7 +4,7 @@ from numpy import NaN, where, logical_or
 import os
 GITHUB = os.environ.get("GITHUB")
 
-districts = read_csv(GITHUB+'/Projects/sots-isl/data/districts.csv',index_col=0)
+districts = read_csv(GITHUB+'/''data/districts.csv',index_col=0)
 print("Districts imported")
 
 ##EXTRAPOLATION
@@ -45,12 +45,12 @@ state_metrics_orig['extrapolation_orig'] = state_metrics_orig.extrapolation_orig
 state_metrics = merge(state_metrics_orig, state_metrics, how='outer', on='state_code')
 print("Extrapolations calculated")
 
-state_metrics.to_csv(GITHUB+'/Projects/sots-isl/data/state_extrapolations.csv')
+state_metrics.to_csv(GITHUB+'/''data/state_extrapolations.csv')
 
 ##WAN COST
 
 #import campus build costs
-campus_build_costs = read_csv(GITHUB+'/Projects/sots-isl/data/id5136_ftg_cost_distributor_wan.csv',index_col=0)
+campus_build_costs = read_csv(GITHUB+'/''data/id5136_ftg_cost_distributor_wan.csv',index_col=0)
 print("Campus costs imported")
 
 #determine min and max values
@@ -99,7 +99,7 @@ campus_build_costs['builds_az_wan'] = campus_build_costs['build_fraction_wan']
 campus_build_costs['builds_az_pop_wan'] = 2 * campus_build_costs['build_fraction_wan']
 campus_build_costs['build_distance_az_wan'] = campus_build_costs['distance'] * campus_build_costs['build_fraction_wan']
 campus_build_costs['build_distance_az_pop_wan'] = campus_build_costs['build_distance_az_pop'] * campus_build_costs['build_fraction_wan']
-campus_build_costs.to_csv(GITHUB+'/Projects/sots-isl/data/campus_build_costs_max_min.csv')
+campus_build_costs.to_csv(GITHUB+'/''data/campus_build_costs_max_min.csv')
 print("Min max calculated")
 
 ##
@@ -120,7 +120,7 @@ state_metrics = state_metrics.reset_index(drop=True)
 ##IA COST
 
 #import district build costs
-district_build_costs = read_csv(GITHUB+'/Projects/sots-isl/data/id5137_ftg_cost_distributor_ia.csv',index_col=0)
+district_build_costs = read_csv(GITHUB+'/''data/id5137_ftg_cost_distributor_ia.csv',index_col=0)
 print("District costs imported")
 
 #determine cost amounts
@@ -227,7 +227,7 @@ state_metrics.columns = [ 'state_code', 'min_total_cost', 'min_total_state_fundi
               ]
 
 
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 state_metrics.to_csv('id5134_ftg_state_metrics_2018_2018sots.csv', index=False)
 print("File saved")
 

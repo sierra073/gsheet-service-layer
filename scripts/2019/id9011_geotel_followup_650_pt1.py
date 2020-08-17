@@ -45,5 +45,5 @@ results = pd.DataFrame({
           }, index=[0])
 
 # save csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 results.to_csv("id9011_geotel_followup_650_pt1.csv", index=False)

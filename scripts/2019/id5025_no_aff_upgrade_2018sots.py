@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5005_districts_more_money_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -67,5 +67,5 @@ for i in ax.patches:
     j+=1
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5025_no_aff_upgrade_2018sots.png')

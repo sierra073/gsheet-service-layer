@@ -144,5 +144,5 @@ df_results = pd.DataFrame({'funding_year': np.arange(2015, 2033),
                            'projected_pcent_meeting2019_action': all_pcents+y_proj_action[1:]})
 
 # # save csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv("id1010_projecting_pcent_districts_meeting2018_2018sots.csv", index=False)

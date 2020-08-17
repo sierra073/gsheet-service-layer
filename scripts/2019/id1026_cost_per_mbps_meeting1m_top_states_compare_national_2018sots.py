@@ -126,5 +126,5 @@ plt.legend()
 plt.margins(0.25);
 
 # save figure
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id1026_cost_per_mbps_meeting1m_top_states_compare_national_2018sots.png', bbox_inches = 'tight')

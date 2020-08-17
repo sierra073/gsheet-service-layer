@@ -103,5 +103,5 @@ df_results.loc[:, 'extrapolated_num_students_not_meeting_100'] = (df_results['nu
 df_results.loc[:, 'extrapolated_num_students_meeting_1m'] = (df_results['num_students_meeting_1m']*df_results['population_students'])/df_results['sample_students']
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results.to_csv('id1030_num_students_meeting1m_passes_not_meeting100_2018sots.csv', index=False)

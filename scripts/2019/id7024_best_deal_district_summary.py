@@ -63,7 +63,7 @@ sp_mapping_geotel = pd.DataFrame(rows, columns=names)
 
 ## limiting to districts that don't already have a no cost/service provider in your area deal
 ## and are also in line_item deal states to speed things up
-no_deals = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7024_district_info.sql')
+no_deals = get_data(GITHUB+'/''scripts/2019/prework_queries/id7024_district_info.sql')
 primary_districts = primary_districts[primary_districts.primary_id.isin(no_deals.district_id)]
 
 ############################# munge_data.py ##############################
@@ -290,12 +290,12 @@ best_deals[numeric_cols] = best_deals[numeric_cols].astype(float)
 
 ############################## best_deal_analysis.py ##############################
 print('  Summarizing data')
-not_meeting_extrap = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7024_extrap_not_meeting.sql')
+not_meeting_extrap = get_data(GITHUB+'/''scripts/2019/prework_queries/id7024_extrap_not_meeting.sql')
 district_no_new_deals_extrap = float(not_meeting_extrap.iloc[0]['extrapolated_districts_not_meeting'] - not_meeting_extrap.iloc[0]['districts_w_deals_extrap'])
 students_no_new_deals_extrap = float(not_meeting_extrap.iloc[0]['extrapolated_students_not_meeting'] - not_meeting_extrap.iloc[0]['students_w_deal_extrap'])
 
 ## already queried this at beginning to remove districts that already have no cost deal/service provider in your area deal
-#no_deals = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7024_district_info.sql')
+#no_deals = get_data(GITHUB+'/''scripts/2019/prework_queries/id7024_district_info.sql')
 float_columns = ['ia_bw_mbps_total','ia_monthly_cost_total','ia_bandwidth_per_student_kbps','projected_bw_fy2018']
 no_deals[float_columns] = no_deals[float_columns].astype(float)
 
@@ -318,7 +318,7 @@ districts['best_deal'] = np.where(districts.total_bw.isna(),False,
 	np.where(districts.total_bw > districts.ia_bw_mbps_total,True,False))
 
 #### saving all district data ###
-districts.to_csv(GITHUB+'/Projects/sots-isl/data/id7024_all_districts.csv',index=False)
+districts.to_csv(GITHUB+'/''data/id7024_all_districts.csv',index=False)
 
 best_deal_districts = districts[districts['best_deal'] == True].copy()
 best_deal_districts.rename(columns={'ia_bw_mbps_total':'old_total_bw','ia_bandwidth_per_student_kbps':'old_bw_per_student',
@@ -329,7 +329,7 @@ best_deal_districts['total_bw_change'] = (best_deal_districts.new_total_bw - bes
 best_deal_districts['total_bw_percent_change'] = best_deal_districts.total_bw_change/best_deal_districts.old_total_bw
 
 #### saving best deal district data ####
-best_deal_districts.to_csv(GITHUB+'/Projects/sots-isl/data/id7024_best_deal_districts.csv',index=False)
+best_deal_districts.to_csv(GITHUB+'/''data/id7024_best_deal_districts.csv',index=False)
 
 #### saving extrapolated district data ###
 districts_agg = districts.groupby(['best_deal']).agg({'district_id':len,'num_students':sum}).reset_index()
@@ -338,4 +338,4 @@ districts_agg['students_percent'] = districts_agg.num_students/districts_agg.num
 districts_agg['extrap_districts'] = (districts_agg.districts_percent*district_no_new_deals_extrap).round()
 districts_agg['extrap_students_million'] = ((districts_agg.students_percent*students_no_new_deals_extrap)/1000000).round(2)
 districts_agg = districts_agg[['best_deal','districts_percent','extrap_districts','students_percent','extrap_students_million']]
-districts_agg.to_csv(GITHUB+'/Projects/sots-isl/data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)
+districts_agg.to_csv(GITHUB+'/''data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)

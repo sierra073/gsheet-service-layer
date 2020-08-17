@@ -54,7 +54,7 @@ pgsql <- JDBC("org.postgresql.Driver", paste(ghub,"/General_Resources/postgres_d
 con <- dbConnect(pgsql, url=URL_DAR, user=USER_DAR, password=PASSWORD_DAR)
 
 ## state initiative breakedown query for Insights Meeting
-df <- querydb(paste(ghub,"/Projects/sots-isl/scripts/2019/id3006_state_initiatives_breakdowns.sql",sep=''))
+df <- querydb(paste(ghub,"/''scripts/2019/id3006_state_initiatives_breakdowns.sql",sep=''))
 
 ## disconnect from database
 dbDisconnect(con)
@@ -150,7 +150,7 @@ mean17
 init_means = rbind.data.frame(mean16,mean17)
 colnames(init_means) = c('year-1','year','year+1')
 
-write.csv(init_means,file=paste(ghub,'/Projects/sots-isl/data/id3009_16_17_for_comparison.csv',sep=''),row.names=F)
+write.csv(init_means,file=paste(ghub,'/''data/id3009_16_17_for_comparison.csv',sep=''),row.names=F)
 
 barplot(mean16,ylim=c(0,300), col=rgb(.8,.1,.05,.5))
 barplot(mean17,add=T, col=rgb(.05,.8,.05,.5))
@@ -175,7 +175,7 @@ for(t in 2:4){
 pcts
 med_pct
 
-#write.csv(med_pct,file=paste(ghub,'/Projects/sots-isl/data/id3003_yoy_price_pct.csv',sep=''),row.names=T) 
+#write.csv(med_pct,file=paste(ghub,'/''data/id3003_yoy_price_pct.csv',sep=''),row.names=T) 
 
 
 deltaframe = data.frame()
@@ -200,8 +200,8 @@ for (j in 3:8){
 means
 meds
 
-write.csv(deltaframe[,1:5],file=paste(ghub,'/Projects/sots-isl/data/id3004_yoy_bw_deltas.csv',sep=''),row.names=T)
-#write.csv(deltaframe[,c(1:2,6:8)],file='~/GitHub/ficher/Projects/sots-isl/data/yoy_price_deltas.csv',row.names=T)
+write.csv(deltaframe[,1:5],file=paste(ghub,'/''data/id3004_yoy_bw_deltas.csv',sep=''),row.names=T)
+#write.csv(deltaframe[,c(1:2,6:8)],file='~/GitHub/ficher/''data/yoy_price_deltas.csv',row.names=T)
 
 
 

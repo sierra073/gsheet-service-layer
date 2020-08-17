@@ -17,7 +17,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id9995_example_python_figure_2014.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -80,5 +80,5 @@ yp = max(y2)
 ax.axhline(y=yp, color='grey', linestyle='--')
 
 # save image - NEEDED FOR ISL
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id9995_example_python_figure.png')

@@ -19,7 +19,7 @@ def main():
 
     cur = myConnection.cursor()
 
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     queryfile = open('id5007_no_excuse_bw_increase.sql', 'r')
     query = queryfile.read()
     queryfile.close()
@@ -103,7 +103,7 @@ def main():
     plt.text(12.4, 58, 'mean={}'.format(round(df.bw_diff.mean(), 2)))
     plt.text(6.2, 58, 'median={}'.format(round(df.bw_diff.median())))
 
-    os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+    os.chdir(GITHUB + '/''figure_images')
     plt.savefig("id5007_no_excuse_bw_increase.png", bbox_inches = 'tight')
 
 

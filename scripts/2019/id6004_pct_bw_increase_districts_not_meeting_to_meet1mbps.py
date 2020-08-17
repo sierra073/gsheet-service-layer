@@ -192,5 +192,5 @@ plt.text(16, 1600, "Mean: "+str(round(df_fit_ia.bw_pct_change_to_meet_2018_goal.
 
 
 # save to isl folder figure_images
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6004_pct_bw_increase_districts_not_meeting_to_meet1mbps.png", bbox_inches = 'tight')

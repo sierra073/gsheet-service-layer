@@ -15,7 +15,7 @@ import pandas as pd
 ##set working directory
 ficher = os.environ.get("FICHER")
 print(os.environ.get("FICHER"))
-os.chdir(ficher+"/Projects/sots-isl/scripts/2019")
+os.chdir(ficher+"/''scripts/2019")
 
 ## db credentials
 HOST_PROD = os.environ.get("HOST_DAR")

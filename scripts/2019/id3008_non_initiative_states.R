@@ -56,7 +56,7 @@ con <- dbConnect(pgsql, url=URL_DAR, user=USER_DAR, password=PASSWORD_DAR)
 
 ## state initiative breakedown query for Insights Meeting
 
-df <- querydb(paste(ghub,"/Projects/sots-isl/scripts/2019/id3006_state_initiatives_breakdowns.sql", sep=""))
+df <- querydb(paste(ghub,"/''scripts/2019/id3006_state_initiatives_breakdowns.sql", sep=""))
 
 ## disconnect from database
 dbDisconnect(con)
@@ -154,7 +154,7 @@ for(t in 6:8){
 pcts #% change in mean price/meg
 med_pct #% change in median price/meg
 
-#write.csv(med_pct,file=paste(ghub,'/Projects/sots-isl/data/id3003_yoy_price_pct.csv',sep=''),row.names=T)
+#write.csv(med_pct,file=paste(ghub,'/''data/id3003_yoy_price_pct.csv',sep=''),row.names=T)
 
 
 deltaframe = data.frame()
@@ -180,8 +180,8 @@ means #mean change in bwps / $/meg
 meds #median change in bwps / $/meg
 
 
-write.csv(delta_all[,1:5],file=paste(ghub,'/Projects/sots-isl/data/id3009_nis_bwps.csv',sep=''),row.names=F)
-#write.csv(delta_all[,c(1,6:9)],file=paste(ghub,'/Projects/sots-isl/data/id3008_nis_cpm.csv',sep=''),row.names=F)
+write.csv(delta_all[,1:5],file=paste(ghub,'/''data/id3009_nis_bwps.csv',sep=''),row.names=F)
+#write.csv(delta_all[,c(1,6:9)],file=paste(ghub,'/''data/id3008_nis_cpm.csv',sep=''),row.names=F)
 
 
 plot(x=0:2,y=deltaframe[1,3:5],type='l',ylim=c(0,800))

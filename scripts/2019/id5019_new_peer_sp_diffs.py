@@ -23,7 +23,7 @@ def main():
 
     cur = myConnection.cursor()
 
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     queryfile = open('id5019_new_peer_sp_diffs.sql', 'r')
     query = queryfile.read()
     queryfile.close()
@@ -47,7 +47,7 @@ def main():
 
     myConnection.close()
 
-    df.to_csv(GITHUB+'/Projects/sots-isl/data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)
+    df.to_csv(GITHUB+'/''data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)
 
 
 if __name__ == '__main__':

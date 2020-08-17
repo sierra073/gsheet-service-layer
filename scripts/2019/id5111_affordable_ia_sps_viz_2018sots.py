@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5111_affordable_ia_sps_viz_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -60,5 +60,5 @@ plt.xlabel('Percent of Students')
 plt.gca().set_xticklabels(['{:.0f}%'.format(x * 100) for x in plt.gca().get_xticks()])
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5111_affordable_ia_sps_viz_2018sots.png')

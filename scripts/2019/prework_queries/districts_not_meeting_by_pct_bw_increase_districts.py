@@ -238,5 +238,5 @@ plt.text(1, 9000, "Median: "+str(round(df_clean.pct_bw_increase_to_meet_1Mbps.me
 plt.text(1, 8700, "Mean: "+str(round(df_clean.pct_bw_increase_to_meet_1Mbps.mean(), 1)), ha='center', va='bottom');
 
 # save to isl folder figure_images
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6002_districts_not_meeting_by_pct_bw_increase_districts.png", bbox_inches = 'tight')

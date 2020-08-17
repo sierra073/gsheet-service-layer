@@ -9,8 +9,8 @@ sys.path.insert(0, GITHUB + '/Projects/funding_the_gap/src/features')
 
 from classes import cost_magnifier
 
-unscalable_districts = read_csv(GITHUB + '/Projects/sots-isl/data/unscalable_districts.csv', index_col=0)
-district_costs = read_csv(GITHUB + '/Projects/sots-isl/data/district_costs.csv', index_col=0)
+unscalable_districts = read_csv(GITHUB + '/''data/unscalable_districts.csv', index_col=0)
+district_costs = read_csv(GITHUB + '/''data/district_costs.csv', index_col=0)
 print("Distrct costs imported")
 
 district_build_costs = concat([unscalable_districts, district_costs], axis=1)
@@ -50,4 +50,4 @@ district_build_costs['total_district_funding_ia'] = where((district_build_costs.
                                                           0,
                                                           district_build_costs['total_district_funding_ia'])
 
-district_build_costs.to_csv(GITHUB + '/Projects/sots-isl/data/id5137_ftg_cost_distributor_ia_2018sots.csv')
+district_build_costs.to_csv(GITHUB + '/''data/id5137_ftg_cost_distributor_ia_2018sots.csv')

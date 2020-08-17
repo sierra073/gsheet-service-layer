@@ -40,7 +40,7 @@ def get_data(sql_file):
                 count += 1
                 pass
 
-df_closest_district = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7022_any_district_peer_sp_miles.sql')
+df_closest_district = get_data(GITHUB+'/''scripts/2019/prework_queries/id7022_any_district_peer_sp_miles.sql')
 
 df_closest_district['old_peersp_parent_name'] = df_closest_district['peersp_parent_name']
 esh_650_not_matched = pd.read_csv(DATA_PATH + 'processed/esh_sps_not_80_geotel_sps.csv')
@@ -53,4 +53,4 @@ df_closest_district = pd.merge(df_min,df_closest_district, how = 'inner')
 df = pd.DataFrame(df_closest_district.groupby(['already_receives_peer_deal_provider'],as_index=True)['district_id'].nunique())
 df['percent'] = df['district_id']/df_closest_district.district_id.nunique()
 df.rename(columns={'district_id':'districts'},inplace=True)
-df.to_csv(GITHUB+'/Projects/sots-isl/data/id7023_missing_provider_already_received.csv',index=False)
+df.to_csv(GITHUB+'/''data/id7023_missing_provider_already_received.csv',index=False)

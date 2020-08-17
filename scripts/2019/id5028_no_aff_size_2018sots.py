@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5005_districts_more_money_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -77,5 +77,5 @@ plt.xlabel("No Cost Decrease, Not Meeting Benchmark Prices")
 plt.legend(loc="upper left", bbox_to_anchor=(1, 1), ncol=1)
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5028_no_aff_size_2018sots.png')

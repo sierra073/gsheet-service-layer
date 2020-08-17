@@ -13,7 +13,7 @@ GITHUB = os.environ.get("GITHUB")
 myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, database=DB, port=5432)
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id9002_state_boxplots_cost_per_mbps.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -28,5 +28,5 @@ data = data[data.state_code.isin(['AL', 'KY', 'NC', 'RI', 'TN', 'WV'])]
 
 ax = sns.boxplot(x="state_code", y="ia_monthly_cost_per_mbps", data=data, linewidth=1.5)
 
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id9002_state_boxplots_cost_per_mbps.png')

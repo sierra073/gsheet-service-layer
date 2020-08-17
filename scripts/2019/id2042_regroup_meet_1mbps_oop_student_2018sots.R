@@ -49,15 +49,15 @@ querydb <- function(query_name){
   return(data)
 }
 
-knapsack <- querydb(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
-districts <- querydb(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/id2032_districts_new_knapsack_2018sots.sql", sep=""))
+knapsack <- querydb(paste(GITHUB, "''scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
+districts <- querydb(paste(GITHUB, "''scripts/2019/prework_queries/id2032_districts_new_knapsack_2018sots.sql", sep=""))
 
 
 ## disconnect from database
 dbDisconnect(con)
 
 ## load in knapsack budget function
-source(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
+source(paste(GITHUB, "''scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
 
 ## apply to every row
 for (i in 1:nrow(districts)){
@@ -147,5 +147,5 @@ df_pay_more <- f_pay_more_oop(districts[districts$district_regroup=="Pay More to
 df_final <- rbind(df_regroup,df_combo)
 df_final <- merge(x = df_final, y = df_pay_more, all = TRUE)
 
-write.csv(df_final, paste(GITHUB,"/Projects/sots-isl/data/id2042_regroup_meet_1mbps_oop_student_2018sots.csv", sep = ""), row.names = FALSE)
+write.csv(df_final, paste(GITHUB,"/''data/id2042_regroup_meet_1mbps_oop_student_2018sots.csv", sep = ""), row.names = FALSE)
 

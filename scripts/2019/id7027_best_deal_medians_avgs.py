@@ -4,7 +4,7 @@ import numpy as np
 
 GITHUB = os.environ.get("GITHUB")
 
-best_deal = pd.read_csv(GITHUB+'/Projects/sots-isl/data/id7024_best_deal_districts.csv')
+best_deal = pd.read_csv(GITHUB+'/''data/id7024_best_deal_districts.csv')
 
 best_deal['total_bw_percent_change'] = best_deal['total_bw_percent_change']*100
 
@@ -31,4 +31,4 @@ def calc_summary_metrics(df):
 
 best_deal_medians_avgs = calc_summary_metrics(best_deal).round()
 
-best_deal_medians_avgs.to_csv(GITHUB+'/Projects/sots-isl/data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)
+best_deal_medians_avgs.to_csv(GITHUB+'/''data/'+os.path.basename(__file__).replace('.py','.csv'),index=False)

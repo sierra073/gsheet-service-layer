@@ -5,7 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 import matplotlib.pyplot as plt
 
 GITHUB = os.environ.get("GITHUB")
-best_deal = pd.read_csv(GITHUB+'/Projects/sots-isl/data/id7024_best_deal_districts.csv')
+best_deal = pd.read_csv(GITHUB+'/''data/id7024_best_deal_districts.csv')
 
 max_bin = 1100
 increment = 100
@@ -90,4 +90,4 @@ for x0,v0, label in zip (xmarks,final_df['district_count_after'],
                          final_df['district_count_after']):
     ax2.text(x0-.15,v0+2,label)
 
-plt.savefig(GITHUB+'/Projects/sots-isl/figure_images/'+os.path.basename(__file__).replace('.py','.png'))
+plt.savefig(GITHUB+'/''figure_images/'+os.path.basename(__file__).replace('.py','.png'))

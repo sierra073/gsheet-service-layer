@@ -24,7 +24,7 @@ GITHUB = os.environ.get("GITHUB")
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries') 
+    os.chdir(GITHUB+'/''scripts/2019/prework_queries') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -84,7 +84,7 @@ plt.yticks([], '')
 plt.ylabel('number of students')
 
 #plt.show()
-fig.savefig(GITHUB+'/Projects/sots-isl/figure_images/id6031_num_students_by_bandwidth_2018sots.png')
+fig.savefig(GITHUB+'/''figure_images/id6031_num_students_by_bandwidth_2018sots.png')
 
 
 

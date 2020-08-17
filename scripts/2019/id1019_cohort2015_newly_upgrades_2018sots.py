@@ -174,5 +174,5 @@ df_summary = pd.DataFrame({'num_districts_cohort2015': num_d_2015,
                            'num_districts_never_upgrade': num_0x_up}, index=[0])
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_summary.to_csv('id1019_cohort2015_newly_upgrades_2018sots.csv', index=False)

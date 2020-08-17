@@ -16,7 +16,7 @@ DATA_PATH = GITHUB + '/Projects/peer_deal_methodology_updates_testing/data/'
 myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, database=DB)
 cur = myConnection.cursor()
 # get districts (in ESH universe), their line items (SPs and cost) for 2019
-os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB+'/''scripts/2019/prework_queries')
 query = open('id9012_geotel_followup_650_pt2.sql', "r").read()
 cur.execute(query)
 names = [x[0] for x in cur.description]
@@ -43,5 +43,5 @@ results = pd.DataFrame({
           }, index=[0])
 
 # save csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 results.to_csv("id9012_geotel_followup_650_pt2.csv", index=False)

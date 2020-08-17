@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5016_expiring_multi_year_contract_lengths.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -62,5 +62,5 @@ for x0, y0, label, pct_label in zip(xmarks, counts.district_id, counts.district_
     plt.text(x0, y0, str(label), ha='center', va='bottom', color='orange', weight='bold')
     plt.text(x0, y0+(counts.district_id.max()/30), str(pct_label)+'%', ha='center', va='bottom', weight='bold')
 
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig('id5016_hist_multi_year_contract_len.png')

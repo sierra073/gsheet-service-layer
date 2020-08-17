@@ -157,5 +157,5 @@ plt.title("Percent Meeting 1 Mbps Goal: National vs. Top States")
 plt.legend();
 
 # save figure
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig("id1025_pcent_meeting1m_top_states_compare_national_2018sots.png", bbox_inches = 'tight')

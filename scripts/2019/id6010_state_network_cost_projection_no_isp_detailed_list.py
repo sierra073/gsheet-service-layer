@@ -168,7 +168,7 @@ df_result['total_projected_cost'] = df_result['projected_mrc_1g'] + df_result['p
 df_result.sort_values(['state_code', 'name'], inplace=True)
 
 # save as csv
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 df_result.to_csv('id6010_state_network_cost_projection_no_isp_detailed_list.csv', index=False)
 
 

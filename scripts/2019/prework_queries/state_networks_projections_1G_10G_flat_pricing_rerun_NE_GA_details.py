@@ -257,5 +257,5 @@ df_result_ga_ne.fillna(0, inplace=True)
 df_result_ga_ne['total_projected_cost'] = df_result_ga_ne['projected_mrc_1g'] + df_result_ga_ne['projected_mrc_10g'] + df_result_ga_ne['projected_mrc_10g_10kplus_no_oversub']
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_result_ga_ne.to_csv("id6007_state_network_detailed_list_w_cost.csv", index=False)

@@ -26,7 +26,7 @@ PORT_DENIM = os.environ.get("PORT_DENIM")
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019') 
+    os.chdir(GITHUB+'/''scripts/2019') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -118,5 +118,5 @@ plt.title(str(label_title), fontproperties=LATO_REG,size=18)
 
 
 #plt.show()
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id6072_c2_funding_2018sots.png')

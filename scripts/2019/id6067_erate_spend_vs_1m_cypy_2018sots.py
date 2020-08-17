@@ -24,13 +24,13 @@ DB_DENIM = os.environ.get("DB_DENIM")
 PORT_DENIM = os.environ.get("PORT_DENIM")
 
 #import data from previous script
-os.chdir(GITHUB+'/Projects/sots-isl/data/') 
+os.chdir(GITHUB+'/''data/') 
 fund_1m_2019 = read_csv('id2035_regroup_meet1mbps.csv')
 
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/') 
+    os.chdir(GITHUB+'/''scripts/2019/prework_queries/') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -41,7 +41,7 @@ def getData( conn, filename ) :
 #query data
 def getDataScript( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/') 
+    os.chdir(GITHUB+'/''scripts/') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -179,5 +179,5 @@ plt.title(str(label_title), fontproperties=LATO_REG,size=18)
 
 
 #plt.show()
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id6067_erate_spend_vs_1m_fund_cypy.png')

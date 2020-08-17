@@ -186,5 +186,5 @@ df_results_all = pd.concat([df_results_national, df_results_tinies, df_results_b
 df_results_all.reset_index(inplace=True)
 
 # save as a table
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results_all.to_csv('id1027_tinies_various_metrics_2018sots.csv', index=False)

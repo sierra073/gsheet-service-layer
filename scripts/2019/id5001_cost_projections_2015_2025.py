@@ -18,7 +18,7 @@ conn = psy.connect(host=HOST_DAR, user=USER_DAR, password=PASSWORD_DAR, database
 
 
 def main():
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     circ_costs = get_data('id5001_median_circuit_costs.sql')
 
     df = circ_costs[['funding_year', 'state', 'circuit_size', 'median_rec_cost']]
@@ -64,7 +64,7 @@ def main():
                 'avg_decr',
                 'mrc',
                 'perc_decr_yoy',
-                'perc_decr']].to_csv(GITHUB+'/Projects/sots-isl/data/id5001_cost_projections_2015_2025.csv', index=False)
+                'perc_decr']].to_csv(GITHUB+'/''data/id5001_cost_projections_2015_2025.csv', index=False)
 
 
 def get_data(sql_file):

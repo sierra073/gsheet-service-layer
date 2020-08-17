@@ -63,7 +63,7 @@ sql_cost = """
 """
 
 ## to answer the first question of how many districts would meet given current deal and projections
-df = pd.read_csv(GITHUB + '/Projects/sots-isl/data/id7030_all_districts_including_wi.csv')
+df = pd.read_csv(GITHUB + '/''data/id7030_all_districts_including_wi.csv')
 
 pop = df[(df.funding_year == 2019) & (df.best_deal == False)]
 did_list1 = str(pop.district_id.tolist()).lstrip('[').rstrip(']')
@@ -108,10 +108,10 @@ weighted_avg_add_cost_per_student = round(pay_more['add_cost_per_stud_post_disco
 new_cols = ['district_id'] + [c for c in pay_more.columns if c not in pop.columns]
 
 output = pop.merge(pay_more[new_cols], on='district_id', how='left')
-output.to_csv(GITHUB + '/Projects/sots-isl/data/id5021_no_best_deal_output.csv', index=False)
+output.to_csv(GITHUB + '/''data/id5021_no_best_deal_output.csv', index=False)
 agg_output = pd.DataFrame({'perc_students_projected_meet_goals': [float(perc_students_projected_meet_goals)],
                            'weighted_avg_add_cost_per_student': [float(weighted_avg_add_cost_per_student)],
                            'alt_mean': round(((pay_more.goal_cost - pay_more.ia_monthly_cost_total)*(1-pay_more.c1_discount_rate)).sum()/pay_more.num_students.sum(), 2),
                            'median': round(pay_more['add_cost_per_stud_post_discount'].median(), 2)})
 
-agg_output.to_csv(GITHUB + '/Projects/sots-isl/data/id5021_no_best_deal_projected_cost.csv')
+agg_output.to_csv(GITHUB + '/''data/id5021_no_best_deal_projected_cost.csv')

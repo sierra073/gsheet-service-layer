@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/')
+os.chdir(GITHUB + '/''scripts/')
 queryfile = open('id2019_states_progress_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -96,7 +96,7 @@ def make_bar(data):
 
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 make_line_slope(conn1)
 plt.savefig('id5112_conn1_line.png')
 make_bar(conn1)

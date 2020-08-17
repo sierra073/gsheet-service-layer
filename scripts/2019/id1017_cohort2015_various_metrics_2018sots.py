@@ -259,5 +259,5 @@ d_summary = {'cohort_year': 2015,
 df_summary = pd.DataFrame(d_summary,index=[0])
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_summary.to_csv('id1017_cohort2015_various_metrics_2018sots.csv', index=False)

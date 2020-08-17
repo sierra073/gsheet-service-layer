@@ -49,8 +49,8 @@ querydb <- function(query_name){
   return(data)
 }
 
-knapsack <- querydb(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
-districts <- querydb(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/id2032_districts_new_knapsack_2018sots.sql", sep=""))
+knapsack <- querydb(paste(GITHUB, "''scripts/2019/prework_queries/id2032_new_2019_knapsack_2018sots.sql", sep=""))
+districts <- querydb(paste(GITHUB, "''scripts/2019/prework_queries/id2032_districts_new_knapsack_2018sots.sql", sep=""))
 
 districts <- districts[districts$district_group=="Hard to Meet Group",]
 
@@ -58,7 +58,7 @@ districts <- districts[districts$district_group=="Hard to Meet Group",]
 dbDisconnect(con)
 
 ## load in knapsack budget function
-source(paste(GITHUB, "Projects/sots-isl/scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
+source(paste(GITHUB, "''scripts/2019/prework_queries/fn_knapsack_budget.R", sep=""))
     
 #f_knapsack(1000,"30th_percentile")
   
@@ -136,5 +136,5 @@ df_combo <- rbind(df_combo,df_discount_rate)
 
 
 
-write.csv(df_combo, paste(GITHUB,"/Projects/sots-isl/data/id2032_cost_to_meet_new_knapsack_2018sots.csv", sep = ""), row.names = FALSE)
+write.csv(df_combo, paste(GITHUB,"/''data/id2032_cost_to_meet_new_knapsack_2018sots.csv", sep = ""), row.names = FALSE)
 

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 GITHUB = os.environ.get("GITHUB")
 
-best_deal = pd.read_csv(GITHUB+'/Projects/sots-isl/data/id7024_best_deal_districts.csv')
+best_deal = pd.read_csv(GITHUB+'/''data/id7024_best_deal_districts.csv')
 
 best_deal['total_bw_percent_change'] = (best_deal.total_bw_percent_change*100).round()
 
@@ -74,4 +74,4 @@ for x0,v0, label in zip (xmarks,df_pct_change['district_count'],
                          df_pct_change['district_count']):
     plt.text(x0-.25,v0+10,label)
 
-plt.savefig(GITHUB+'/Projects/sots-isl/figure_images/'+os.path.basename(__file__).replace('.py','.png'))
+plt.savefig(GITHUB+'/''figure_images/'+os.path.basename(__file__).replace('.py','.png'))

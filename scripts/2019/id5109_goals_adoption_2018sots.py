@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5109_100k_adoption_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -82,5 +82,5 @@ yp = max(y2)
 ax.axhline(y=yp, color='grey', linestyle='--')
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5109_goals_adoption_2018sots.png')

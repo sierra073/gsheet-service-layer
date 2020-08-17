@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5017_dec_total_cost_ufiber_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -57,5 +57,5 @@ ax.legend(p, [p_.get_label() for p_ in p],
           loc=(0, 0), fontsize='small')
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5029_dec_cost_ufiber_fig_2018sots.png')

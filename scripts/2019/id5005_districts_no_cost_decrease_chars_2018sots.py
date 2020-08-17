@@ -20,7 +20,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5005_districts_more_money_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -91,5 +91,5 @@ result = logit_model.fit()
 ors = result.params.apply(lambda x: math.exp(x))
 ors = ors.sort_values(ascending=False)
 ors.name = 'Increase in Odds'
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 ors[0:4].to_csv('id5005_districts_no_cost_decrease_chars_2018sots.csv', header=True)

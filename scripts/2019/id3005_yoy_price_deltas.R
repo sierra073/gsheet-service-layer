@@ -54,7 +54,7 @@ pgsql <- JDBC("org.postgresql.Driver", paste(ghub,"/General_Resources/postgres_d
 con <- dbConnect(pgsql, url=URL_DAR, user=USER_DAR, password=PASSWORD_DAR)
 
 ## state initiative breakedown query for Insights Meeting
-df <- querydb(paste(ghub,"/Projects/sots-isl/scripts/2019/id3006_state_initiatives_breakdowns.sql", sep=""))
+df <- querydb(paste(ghub,"/''scripts/2019/id3006_state_initiatives_breakdowns.sql", sep=""))
 
 ## disconnect from database
 dbDisconnect(con)
@@ -127,7 +127,7 @@ for(t in 2:4){
 pcts
 med_pct
 
-#write.csv(med_pct,file=paste(ghub,'/Projects/sots-isl/data/id3003_yoy_price_pct.csv',sep=''),row.names=T)
+#write.csv(med_pct,file=paste(ghub,'/''data/id3003_yoy_price_pct.csv',sep=''),row.names=T)
 
 
 deltaframe = data.frame()
@@ -152,8 +152,8 @@ for (j in 3:8){
 means
 meds
 
-#write.csv(deltaframe[,1:5],file=paste(ghub,'/Projects/sots-isl/data/id3004_yoy_bw_deltas.csv',sep=''),row.names=T)
-write.csv(deltaframe[,c(1:2,6:8)],file=paste(ghub,'/Projects/sots-isl/data/id3005_yoy_price_deltas.csv',sep=''),row.names=FALSE)
+#write.csv(deltaframe[,1:5],file=paste(ghub,'/''data/id3004_yoy_bw_deltas.csv',sep=''),row.names=T)
+write.csv(deltaframe[,c(1:2,6:8)],file=paste(ghub,'/''data/id3005_yoy_price_deltas.csv',sep=''),row.names=FALSE)
 
 
 

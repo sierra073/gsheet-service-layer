@@ -237,5 +237,5 @@ plt.text(0.7*max(df_input[sort_col]), 16.35,
          + " (out of " + str(df_input.shape[0]) + ")", fontsize=14, fontweight='bold', color='#c44f27');
 
 # save to isl folder figure_images
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6006_state_networks_projections_1G_10G_leaders_pricing.png", bbox_inches = 'tight')

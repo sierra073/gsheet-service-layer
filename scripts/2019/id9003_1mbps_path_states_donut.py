@@ -13,7 +13,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id9003_1mbps_path_states_donut_v2.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -42,5 +42,5 @@ plt.setp(wedges, width=0.3)
 ax.set_aspect("equal")
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id9003_1mbps_path_states_donut.png', transparent=True)

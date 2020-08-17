@@ -24,7 +24,7 @@ GITHUB = os.environ.get("GITHUB")
 #query data
 def getData( conn, filename ) :
     #source of sql files
-    os.chdir(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries') 
+    os.chdir(GITHUB+'/''scripts/2019/prework_queries') 
     #query data
     cur = conn.cursor()
     cur.execute(open(filename, "r").read())
@@ -78,5 +78,5 @@ ax2.text(.3, 2500, '$'+str(-round(newly_meeting.median_ia_monthly_cost_total_cha
 
 
 #plt.show()
-fig.savefig(GITHUB+'/Projects/sots-isl/figure_images/id6030_bw_cost_change_for_newly_meeting_w_deal_2018sots.png')
+fig.savefig(GITHUB+'/''figure_images/id6030_bw_cost_change_for_newly_meeting_w_deal_2018sots.png')
 

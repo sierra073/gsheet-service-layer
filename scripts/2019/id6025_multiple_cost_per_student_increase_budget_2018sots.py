@@ -26,7 +26,7 @@ GITHUB = os.environ.get("GITHUB")
 
 def getData(conn, filename):
     # source of sql files
-    os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+    os.chdir(GITHUB + '/''scripts/2019/prework_queries')
     # query data
     cur = conn.cursor()
     queryfile = open(filename, 'r')

@@ -90,5 +90,5 @@ df_results = s1.to_frame().reset_index()
 df_results_WI = df_results[df_results.state_code == 'WI']
 
 # save as a csv
-os.chdir(GITHUB + '/Projects/sots-isl/data')
+os.chdir(GITHUB + '/''data')
 df_results_WI.to_csv('id1036_median_bw_per_student_by_state_2018sots.csv', index=False)

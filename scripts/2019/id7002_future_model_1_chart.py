@@ -6,7 +6,7 @@ import sys
 load_dotenv(find_dotenv())
 GITHUB = os.environ.get("GITHUB")
 
-sys.path.insert(0, GITHUB + "/Projects/sots-isl/scripts/2019/prework_queries")
+sys.path.insert(0, GITHUB + "/''scripts/2019/prework_queries")
 from id7001_model_functions import *
 
 HOST_DAR = os.environ.get("HOST_DAR")
@@ -42,16 +42,16 @@ def get_data(sql_file):
                 count += 1
                 pass
 
-peer_df = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7001_peers.sql')
-peer_df.to_csv(GITHUB+'/Projects/sots-isl/data/id7001_peers.csv',index=False)
-extrap_df = get_data(GITHUB+'/Projects/sots-isl/scripts/2019/prework_queries/id7001_extrap_numbers.sql')
-extrap_df.to_csv(GITHUB+'/Projects/sots-isl/data/id7001_extrap_numbers.csv',index=False)
+peer_df = get_data(GITHUB+'/''scripts/2019/prework_queries/id7001_peers.sql')
+peer_df.to_csv(GITHUB+'/''data/id7001_peers.csv',index=False)
+extrap_df = get_data(GITHUB+'/''scripts/2019/prework_queries/id7001_extrap_numbers.sql')
+extrap_df.to_csv(GITHUB+'/''data/id7001_extrap_numbers.csv',index=False)
 
 ## changing max year to 2025
 peer_df['primary_new_contract_start_date'] = np.where(peer_df['primary_new_contract_start_date']>2025,2025,peer_df['primary_new_contract_start_date'])
 extrap_df['primary_new_contract_start_date'] = np.where(extrap_df['primary_new_contract_start_date']>2025,2025,extrap_df['primary_new_contract_start_date'])
 
-cost_insights1 = pd.read_csv(GITHUB+'Projects/sots-isl/data/id5001_cost_projections_2015_2025.csv')
+cost_insights1 = pd.read_csv(GITHUB+'''data/id5001_cost_projections_2015_2025.csv')
 cost_insights1 = cost_data_transform(cost_insights1)
 
 ## current pricing
@@ -64,4 +64,4 @@ plot, df_current_pricing = plot_1mbps_future_model(cost_data= cost_insights1,
 	same_sp_preference = True, 
 	units = 'districts')
 
-plot.savefig(GITHUB+'/Projects/sots-isl/figure_images/'+os.path.basename(__file__).replace('.py','.png'))
+plot.savefig(GITHUB+'/''figure_images/'+os.path.basename(__file__).replace('.py','.png'))

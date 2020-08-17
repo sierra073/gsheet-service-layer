@@ -168,7 +168,7 @@ df_result['total_projected_cost'] = df_result['projected_mrc_1g'] + df_result['p
 df_result.sort_values(['state_code', 'name'], inplace=True)
 
 # save as csv
-# os.chdir(GITHUB + '/Projects/sots-isl/data/')
+# os.chdir(GITHUB + '/''data/')
 # df_result.to_csv('id6010_state_network_cost_projection_no_isp_detailed_list.csv', index=False)
 
 
@@ -256,5 +256,5 @@ plt.text(0.7*max(df_input[compare_col]), 8.5,
          + " (out of " + str(df_input.shape[0]) + ")", fontsize=14, fontweight='bold', color='#c44f27');
 
 # save figure
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+os.chdir(GITHUB + '/''figure_images/')
 plt.savefig("id6009_state_network_cost_projection_no_isp_plot.png", bbox_inches='tight')

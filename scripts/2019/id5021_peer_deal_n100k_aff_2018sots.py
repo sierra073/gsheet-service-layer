@@ -19,7 +19,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5020_peer_deals_summ_2018sots.sql', 'r')
 query = queryfile.read()
 queryfile.close()
@@ -79,5 +79,5 @@ for p in ax.patches:
     ax.annotate('{:.0f} %'.format(height * 100), (p.get_x() + .4 * width, p.get_y() + .45 * height), color='white', size=14)
 
 # save image
-os.chdir(GITHUB + '/Projects/sots-isl/figure_images')
+os.chdir(GITHUB + '/''figure_images')
 plt.savefig('id5021_peer_deal_n100k_aff_2018sots.png')

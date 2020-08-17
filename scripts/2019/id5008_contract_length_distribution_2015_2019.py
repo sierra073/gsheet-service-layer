@@ -57,7 +57,7 @@ def graph_contract_dur(dataframe, limit=None, save_fig=False):
 
     # only save one figure due to limitations of ISL
     if save_fig:
-        os.chdir(GITHUB + '/Projects/sots-isl/figure_images/')
+        os.chdir(GITHUB + '/''figure_images/')
         plt.savefig('id5008_contract_length_distribution_2015_2019.png')
 
     # return the values to be printed in the stdout but not saved anywhere
@@ -69,7 +69,7 @@ myConnection = psycopg2.connect(host=HOST, user=USER, password=PASSWORD, databas
 
 cur = myConnection.cursor()
 
-os.chdir(GITHUB + '/Projects/sots-isl/scripts/2019/prework_queries')
+os.chdir(GITHUB + '/''scripts/2019/prework_queries')
 queryfile = open('id5008_district_contracts.sql', 'r')
 query = queryfile.read()
 queryfile.close()

@@ -69,7 +69,7 @@ df_dar_no_cost_pd = pd.DataFrame(rows, columns=names)
 #
 # - the ones with the best deals
 # - csv output of python code 7024
-path = GITHUB + '/Projects/sots-isl/2019/prework_queries/'
+path = GITHUB + '/''2019/prework_queries/'
 df_temp = pd.read_csv(path + 'id7024_best_deal_districts.csv')
 df_jamie_csv = df_temp[df_temp.funding_year == 2019]
 
@@ -454,7 +454,7 @@ df_districts_pct_all = df_districts_pct_all[['state_code', 'year',
 
 
 # save as csv
-os.chdir(GITHUB + '/Projects/sots-isl/data/')
+os.chdir(GITHUB + '/''data/')
 df_districts_pct_all.to_csv("id6013_heatmap_easily_connected_districts.csv", index=False)
 
 # Heatmap: Percent of Districts "Easily Connected"
