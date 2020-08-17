@@ -14,6 +14,6 @@ Please refer to [this wiki](https://educationsuperhighway.atlassian.net/wiki/spa
 ### Environment requirements
 Your `.bash_profile` and `.env` should be set up with ESH environment variables - the `GITHUB` path and `DAR` database credentials are required at a minimum.
 ### Usage
-The [isl_main.py](https://github.com/educationsuperhighway/ficher/blob/isl_2019/Projects/sots-isl/src/2019/isl_main.py) script found in `src/2019/` runs the tool.
+The [isl_main.py](https://github.com/sierra073/gsheet-service-layer/blob/master/src/2019/isl_main.py) script found in `src/2019/` runs the tool.
 ### Interpretation of logs
 Each time you run `isl_main.py`, there will be a stream of output that you can pipe to a log file. It prints details around every script being run and the errors (if any) that occurred during each script.
